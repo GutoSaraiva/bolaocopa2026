@@ -24,88 +24,201 @@
       <span class="meta-item"><span class="meta-label">atualizado</span><span class="meta-val" id="meta-data">–</span></span>
     </div>
   </div>
+  <nav class="tabs">
+    <div class="tabs-inner">
+      <button class="tab active" data-view="ranking">ranking</button>
+      <button class="tab" data-view="gabarito">gabarito</button>
+      <button class="tab" data-view="palpites">palpites</button>
+      <button class="tab" data-view="regras">regras</button>
+    </div>
+  </nav>
 </header>
 
 <main class="content">
 
-  <section class="hero" id="hero">
-    <div class="hero-grid">
-      <div class="hero-id">
-        <div class="hero-label">você</div>
-        <div class="hero-name" id="hero-name">Guto</div>
+  <!-- =================== VIEW: RANKING =================== -->
+  <div class="view" data-view="ranking">
+    <section class="hero" id="hero">
+      <div class="hero-grid">
+        <div class="hero-id">
+          <div class="hero-label">você</div>
+          <div class="hero-name" id="hero-name">Guto</div>
+        </div>
+        <div class="hero-pos">
+          <div class="hero-pos-num" id="hero-pos">–</div>
+          <div class="hero-pos-of">de <span id="hero-of">–</span></div>
+        </div>
+        <div class="hero-pts">
+          <div class="hero-pts-num" id="hero-pts">–</div>
+          <div class="hero-pts-label">pontos</div>
+        </div>
+        <div class="hero-delta" id="hero-delta-wrap">
+          <div class="hero-delta-num" id="hero-delta">–</div>
+          <div class="hero-delta-label">vs ontem</div>
+        </div>
       </div>
-      <div class="hero-pos">
-        <div class="hero-pos-num" id="hero-pos">–</div>
-        <div class="hero-pos-of">de <span id="hero-of">–</span></div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-label">líder</span>
+          <span class="stat-val" id="stat-leader">–</span>
+          <span class="stat-gap" id="stat-leader-gap">–</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">corte top 3</span>
+          <span class="stat-val" id="stat-top3">–</span>
+          <span class="stat-gap" id="stat-top3-gap">–</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">mediana</span>
+          <span class="stat-val" id="stat-median">–</span>
+          <span class="stat-gap" id="stat-median-gap">–</span>
+        </div>
       </div>
-      <div class="hero-pts">
-        <div class="hero-pts-num" id="hero-pts">–</div>
-        <div class="hero-pts-label">pontos</div>
-      </div>
-      <div class="hero-delta" id="hero-delta-wrap">
-        <div class="hero-delta-num" id="hero-delta">–</div>
-        <div class="hero-delta-label">vs ontem</div>
-      </div>
-    </div>
+    </section>
 
-    <div class="hero-stats">
-      <div class="stat">
-        <span class="stat-label">líder</span>
-        <span class="stat-val" id="stat-leader">–</span>
-        <span class="stat-gap" id="stat-leader-gap">–</span>
+    <section class="ranking">
+      <div class="ranking-header">
+        <h2 class="section-title">classificação geral</h2>
+        <div class="ranking-filters">
+          <button class="filter active" data-filter="all">todos</button>
+          <button class="filter" data-filter="top10">top 10</button>
+          <button class="filter" data-filter="neighbors">vizinhos do guto</button>
+          <button class="filter" data-filter="search">buscar...</button>
+          <input type="text" id="search-input" class="search-box" placeholder="digite o nome..." style="display:none;">
+          <button class="filter-action" id="jump-guto">↓ guto</button>
+        </div>
       </div>
-      <div class="stat">
-        <span class="stat-label">corte top 3</span>
-        <span class="stat-val" id="stat-top3">–</span>
-        <span class="stat-gap" id="stat-top3-gap">–</span>
+      <div class="table-wrap">
+        <table class="ranking-table">
+          <thead>
+            <tr>
+              <th class="col-delta">Δ</th>
+              <th class="col-pos">pos</th>
+              <th class="col-name">jogador</th>
+              <th class="col-num">total</th>
+              <th class="col-num col-hide-mobile">grupos</th>
+              <th class="col-num col-hide-mobile">mata-mata</th>
+              <th class="col-num col-hide-mobile">bônus</th>
+              <th class="col-num">gap líder</th>
+            </tr>
+          </thead>
+          <tbody id="ranking-body"></tbody>
+        </table>
       </div>
-      <div class="stat">
-        <span class="stat-label">mediana</span>
-        <span class="stat-val" id="stat-median">–</span>
-        <span class="stat-gap" id="stat-median-gap">–</span>
-      </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
-  <section class="ranking">
-    <div class="ranking-header">
-      <h2 class="section-title">ranking</h2>
-      <div class="ranking-filters">
-        <button class="filter active" data-filter="all">todos</button>
-        <button class="filter" data-filter="top10">top 10</button>
-        <button class="filter" data-filter="neighbors">vizinhos do guto</button>
-        <button class="filter" data-filter="search">buscar...</button>
-        <input type="text" id="search-input" class="search-box" placeholder="digite o nome..." style="display:none;">
-        <button class="filter-action" id="jump-guto">↓ guto</button>
+  <!-- =================== VIEW: GABARITO =================== -->
+  <div class="view" data-view="gabarito" hidden>
+    <section class="view-header">
+      <h2 class="section-title">gabarito oficial</h2>
+      <p class="view-sub">resultados reais dos jogos com classificação atualizada</p>
+    </section>
+    <div class="groups-grid" id="groups-grid"></div>
+  </div>
+
+  <!-- =================== VIEW: PALPITES =================== -->
+  <div class="view" data-view="palpites" hidden>
+    <section class="view-header">
+      <h2 class="section-title">palpites dos 89 participantes</h2>
+      <p class="view-sub">selecione um participante para ver seu palpite completo</p>
+    </section>
+    <div class="palpites-layout">
+      <aside class="palpites-sidebar">
+        <div class="palpites-filter-bar">
+          <input type="text" id="palpites-search" class="search-box-full" placeholder="buscar...">
+        </div>
+        <div class="palpites-list" id="palpites-list"></div>
+      </aside>
+      <div class="palpites-content" id="palpites-content">
+        <div class="palpites-empty">
+          <p class="palpites-empty-msg">← selecione um participante na lista</p>
+        </div>
       </div>
     </div>
+  </div>
 
-    <div class="table-wrap">
-      <table class="ranking-table">
-        <thead>
-          <tr>
-            <th class="col-delta">Δ</th>
-            <th class="col-pos">pos</th>
-            <th class="col-name">jogador</th>
-            <th class="col-num">total</th>
-            <th class="col-num col-hide-mobile">grupos</th>
-            <th class="col-num col-hide-mobile">mata-mata</th>
-            <th class="col-num col-hide-mobile">bônus</th>
-            <th class="col-num">gap líder</th>
-          </tr>
-        </thead>
-        <tbody id="ranking-body">
-          <!-- preenchido pelo JS -->
-        </tbody>
-      </table>
+  <!-- =================== VIEW: REGRAS =================== -->
+  <div class="view" data-view="regras" hidden>
+    <section class="view-header">
+      <h2 class="section-title">regras do bolão</h2>
+      <p class="view-sub">VII Bolão da Copa do Mundo · R$ 180 por palpite</p>
+    </section>
+    <div class="regras-grid">
+      <article class="regra-card">
+        <h3 class="regra-titulo">fase de grupos</h3>
+        <table class="regra-table">
+          <tbody>
+            <tr><td>acertou o resultado, placar errado</td><td class="pts-cell">7 pts</td></tr>
+            <tr><td>acertou resultado + gols do vencedor</td><td class="pts-cell">9 pts</td></tr>
+            <tr><td>acertou o placar exato</td><td class="pts-cell">12 pts</td></tr>
+          </tbody>
+        </table>
+      </article>
+
+      <article class="regra-card">
+        <h3 class="regra-titulo">mata-mata · por seleção classificada</h3>
+        <table class="regra-table">
+          <tbody>
+            <tr><td>fase de 32</td><td class="pts-cell">10 pts</td></tr>
+            <tr><td>oitavas</td><td class="pts-cell">15 pts</td></tr>
+            <tr><td>quartas</td><td class="pts-cell">20 pts</td></tr>
+            <tr><td>semifinais</td><td class="pts-cell">25 pts</td></tr>
+            <tr><td>disputa de 3º lugar</td><td class="pts-cell">20 pts</td></tr>
+            <tr><td>final</td><td class="pts-cell">35 pts</td></tr>
+            <tr class="regra-special"><td>vice-campeã</td><td class="pts-cell">25 pts</td></tr>
+            <tr class="regra-special"><td>campeã</td><td class="pts-cell">50 pts</td></tr>
+          </tbody>
+        </table>
+        <p class="regra-note">se acertar a seleção em <strong>posição invertida</strong> na chave, ganha <strong>metade</strong>.</p>
+      </article>
+
+      <article class="regra-card">
+        <h3 class="regra-titulo">mata-mata · placar exato</h3>
+        <table class="regra-table">
+          <tbody>
+            <tr><td>fase de 32</td><td class="pts-cell">+12 pts</td></tr>
+            <tr><td>oitavas</td><td class="pts-cell">+14 pts</td></tr>
+            <tr><td>quartas</td><td class="pts-cell">+16 pts</td></tr>
+            <tr><td>semifinais</td><td class="pts-cell">+18 pts</td></tr>
+            <tr><td>3º lugar</td><td class="pts-cell">+18 pts</td></tr>
+            <tr><td>final</td><td class="pts-cell">+20 pts</td></tr>
+          </tbody>
+        </table>
+        <p class="regra-note">vale apenas o placar dos <strong>90 minutos</strong>. prorrogação e pênaltis só definem o classificado.</p>
+      </article>
+
+      <article class="regra-card">
+        <h3 class="regra-titulo">pontuação bônus</h3>
+        <table class="regra-table">
+          <tbody>
+            <tr><td>artilheiro da copa</td><td class="pts-cell">40 pts</td></tr>
+            <tr><td>nº de gols do artilheiro</td><td class="pts-cell">15 pts</td></tr>
+            <tr><td>melhor ataque</td><td class="pts-cell">35 pts</td></tr>
+            <tr><td>melhor defesa</td><td class="pts-cell">35 pts</td></tr>
+            <tr><td>total de gols na copa</td><td class="pts-cell">60 pts</td></tr>
+          </tbody>
+        </table>
+        <p class="regra-note">total potencial bônus: <strong>185 pts</strong></p>
+      </article>
+
+      <article class="regra-card regra-card-wide">
+        <h3 class="regra-titulo">distribuição de prêmios</h3>
+        <div class="prizes-grid">
+          <div class="prize"><span class="prize-pct">60%</span><span class="prize-label">campeão</span></div>
+          <div class="prize"><span class="prize-pct">20%</span><span class="prize-label">vice</span></div>
+          <div class="prize"><span class="prize-pct">10%</span><span class="prize-label">3º lugar</span></div>
+          <div class="prize"><span class="prize-pct">10%</span><span class="prize-label">campeão 1ª fase</span></div>
+        </div>
+      </article>
     </div>
-  </section>
+  </div>
 
   <footer class="footer">
     <div class="footer-inner">
       <span>engine validado 89/89 contra a planilha oficial</span>
       <span>·</span>
-      <span>fonte de resultados: <a href="https://www.football-data.org" target="_blank">football-data.org</a></span>
+      <span>fonte: <a href="https://www.football-data.org" target="_blank">football-data.org</a></span>
       <span>·</span>
       <span><a href="https://github.com/GutoSaraiva/bolaocopa2026" target="_blank">github</a></span>
     </div>
