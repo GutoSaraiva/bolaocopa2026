@@ -4,27 +4,28 @@ Tracker pessoal do Guto para o VII Bolão da Copa 2026, com:
 - Cálculo automático de pontuação em tempo real
 - Ranking comparativo entre os 89 participantes
 - Variação diária de posição (delta vs dia anterior)
-- Atualização automática via API football-data.org
+- Atualização automática via API football-data.org (em construção)
+
+🔗 **Live**: https://gutosaraiva.github.io/bolaocopa2026/
 
 ## Estrutura
 
-- `data/` — Palpites + estado atual do bolão (JSONs)
+- `/index.html`, `/style.css`, `/app.js` — Interface web (Etapa 6, concluída)
+- `/data/` — JSONs com palpites e estado atual
   - `palpite_guto.json` — Meu palpite completo (104 jogos + 5 bônus)
   - `palpites_todos.json` — Palpites dos 89 participantes
-  - `ranking_atual.json` — Posição/pontos no snapshot de 15/06/2026
-  - `gabarito_atual.json` — Resultados reais até 15/06/2026
+  - `gabarito_atual.json` — Resultados reais até a última sincronização
   - `ranking_calculado.json` — Output do engine (consumido pela UI)
-  - `historico/` — Snapshots diários do ranking (gerados pelo workflow)
-- `engine/` — Scripts Python de scoring e fetch da API
-  - `scoring.py` — Engine de pontuação (regras do bolão)
-  - `run_ranking.py` — Runner que gera ranking + snapshot diário
-- `web/` — Interface HTML/JS (GitHub Pages) — em construção
-- `.github/workflows/` — GitHub Action — em construção
+  - `historico/` — Snapshots diários para cálculo do delta
+- `/engine/` — Engine de pontuação (Etapa 5, concluída)
+  - `scoring.py` — Regras de pontuação
+  - `run_ranking.py` — Runner que gera o ranking + snapshot diário
+- `/.github/workflows/` — GitHub Action (Etapa 7, em construção)
 
-## Engine de pontuação (Etapa 5 — concluída)
+## Engine de pontuação
 
-O engine implementa as regras oficiais do bolão e foi **validado 100%** contra a
-planilha do organizador (89/89 participantes com pontuação E posição idênticas).
+Implementa as regras oficiais do bolão e foi validado 100% contra a planilha do
+organizador (89/89 participantes com pontuação E posição idênticas).
 
 **Como rodar localmente:**
 
@@ -32,21 +33,17 @@ planilha do organizador (89/89 participantes com pontuação E posição idênti
 python engine/run_ranking.py
 ```
 
-Lê os palpites e gabarito, computa o ranking, salva snapshot do dia atual em
-`data/historico/{hoje}.json` e gera o output `data/ranking_calculado.json` que
-será consumido pela página web.
+## Interface web
 
-**Regras implementadas:**
-- Fase de grupos: 7 pts (resultado), 9 pts (resultado + gols do vencedor), 12 pts (placar exato)
-- Classificação dos grupos: 10 pts por seleção classificada, 5 pts em caso de inversão
-- Mata-mata: TODO (será implementado quando começar a fase eliminatória)
-- Bônus: TODO (calculado ao final da Copa)
+Design dashboard-style inspirado em terminais financeiros (Bloomberg/Reuters).
+A primeira coluna da tabela mostra a variação diária de posição:
 
-**Delta diário:** o engine compara o ranking atual com o snapshot do dia anterior
-e gera o campo `delta` para cada participante:
-- `▲N` = subiu N posições
-- `▼N` = caiu N posições  
+- `▲N` = subiu N posições vs ontem
+- `▼N` = caiu N posições vs ontem
 - `–` = manteve a posição (ou primeiro dia)
+
+Filtros disponíveis: todos, top 10, vizinhos do Guto, busca por nome.
+Botão "↓ guto" leva direto para a linha destacada no ranking.
 
 ## Próximas etapas
 
@@ -54,13 +51,7 @@ e gera o campo `delta` para cada participante:
 - [x] Etapa 2: Extrair todos os 89 participantes
 - [x] Etapa 3: Conta no football-data.org
 - [x] Etapa 4: Criar repositório
-- [x] Etapa 5: Engine de pontuação + delta diário
-- [ ] Etapa 6: UI (HTML/CSS/JS)
+- [x] Etapa 5: Engine de pontuação + delta diário (89/89 validado)
+- [x] Etapa 6: Interface web (responsiva, dark dashboard)
 - [ ] Etapa 7: GitHub Action (puxa API + roda engine a cada 30 min)
 - [ ] Deploy + testes
-
-## Fonte de dados
-
-- API: [football-data.org](https://www.football-data.org) — free tier
-- Hospedagem: GitHub Pages
-- Automação: GitHub Actions (cron 30 min)

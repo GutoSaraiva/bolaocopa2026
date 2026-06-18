@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bolão Copa 2026 / Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-eye">●</span>
+      <span class="brand-name">BOLÃO COPA 2026</span>
+      <span class="brand-sub">/ tracker pessoal</span>
+    </div>
+    <div class="meta">
+      <span class="meta-item"><span class="meta-label">jogos</span><span class="meta-val" id="meta-jogos">–</span></span>
+      <span class="meta-item"><span class="meta-label">participantes</span><span class="meta-val" id="meta-part">–</span></span>
+      <span class="meta-item"><span class="meta-label">atualizado</span><span class="meta-val" id="meta-data">–</span></span>
+    </div>
+  </div>
+</header>
+
+<main class="content">
+
+  <section class="hero" id="hero">
+    <div class="hero-grid">
+      <div class="hero-id">
+        <div class="hero-label">você</div>
+        <div class="hero-name" id="hero-name">Guto</div>
+      </div>
+      <div class="hero-pos">
+        <div class="hero-pos-num" id="hero-pos">–</div>
+        <div class="hero-pos-of">de <span id="hero-of">–</span></div>
+      </div>
+      <div class="hero-pts">
+        <div class="hero-pts-num" id="hero-pts">–</div>
+        <div class="hero-pts-label">pontos</div>
+      </div>
+      <div class="hero-delta" id="hero-delta-wrap">
+        <div class="hero-delta-num" id="hero-delta">–</div>
+        <div class="hero-delta-label">vs ontem</div>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-label">líder</span>
+        <span class="stat-val" id="stat-leader">–</span>
+        <span class="stat-gap" id="stat-leader-gap">–</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">corte top 3</span>
+        <span class="stat-val" id="stat-top3">–</span>
+        <span class="stat-gap" id="stat-top3-gap">–</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">mediana</span>
+        <span class="stat-val" id="stat-median">–</span>
+        <span class="stat-gap" id="stat-median-gap">–</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="ranking">
+    <div class="ranking-header">
+      <h2 class="section-title">ranking</h2>
+      <div class="ranking-filters">
+        <button class="filter active" data-filter="all">todos</button>
+        <button class="filter" data-filter="top10">top 10</button>
+        <button class="filter" data-filter="neighbors">vizinhos do guto</button>
+        <button class="filter" data-filter="search">buscar...</button>
+        <input type="text" id="search-input" class="search-box" placeholder="digite o nome..." style="display:none;">
+        <button class="filter-action" id="jump-guto">↓ guto</button>
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <table class="ranking-table">
+        <thead>
+          <tr>
+            <th class="col-delta">Δ</th>
+            <th class="col-pos">pos</th>
+            <th class="col-name">jogador</th>
+            <th class="col-num">total</th>
+            <th class="col-num col-hide-mobile">grupos</th>
+            <th class="col-num col-hide-mobile">mata-mata</th>
+            <th class="col-num col-hide-mobile">bônus</th>
+            <th class="col-num">gap líder</th>
+          </tr>
+        </thead>
+        <tbody id="ranking-body">
+          <!-- preenchido pelo JS -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>engine validado 89/89 contra a planilha oficial</span>
+      <span>·</span>
+      <span>fonte de resultados: <a href="https://www.football-data.org" target="_blank">football-data.org</a></span>
+      <span>·</span>
+      <span><a href="https://github.com/GutoSaraiva/bolaocopa2026" target="_blank">github</a></span>
+    </div>
+  </footer>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
