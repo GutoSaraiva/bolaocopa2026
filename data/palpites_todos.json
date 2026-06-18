@@ -23807,7 +23807,44 @@
   "jogador": "Daniel Boa Nova",
   "grupos": {
    "A": {
-    "jogos": [],
+    "jogos": [
+     [
+      "México",
+      1,
+      0,
+      "África do Sul"
+     ],
+     [
+      "Coreia do Sul",
+      2,
+      2,
+      "Tchéquia"
+     ],
+     [
+      "Tchéquia",
+      1,
+      1,
+      "África do Sul"
+     ],
+     [
+      "México",
+      1,
+      0,
+      "Coreia do Sul"
+     ],
+     [
+      "Tchéquia",
+      0,
+      0,
+      "México"
+     ],
+     [
+      "África do Sul",
+      1,
+      2,
+      "Coreia do Sul"
+     ]
+    ],
     "class": [
      "México",
      "Coreia do Sul",
@@ -23815,7 +23852,44 @@
     ]
    },
    "B": {
-    "jogos": [],
+    "jogos": [
+     [
+      "Canadá",
+      1,
+      2,
+      "Bósnia"
+     ],
+     [
+      "Catar",
+      0,
+      3,
+      "Suíça"
+     ],
+     [
+      "Suíça",
+      1,
+      0,
+      "Bósnia"
+     ],
+     [
+      "Canadá",
+      1,
+      1,
+      "Catar"
+     ],
+     [
+      "Suíça",
+      1,
+      0,
+      "Canadá"
+     ],
+     [
+      "Bósnia",
+      2,
+      0,
+      "Catar"
+     ]
+    ],
     "class": [
      "Suiça",
      "Bósnia",
@@ -23823,7 +23897,44 @@
     ]
    },
    "C": {
-    "jogos": [],
+    "jogos": [
+     [
+      "Brasil",
+      2,
+      2,
+      "Marrocos"
+     ],
+     [
+      "Haiti",
+      1,
+      2,
+      "Escócia"
+     ],
+     [
+      "Escócia",
+      0,
+      1,
+      "Marrocos"
+     ],
+     [
+      "Brasil",
+      4,
+      0,
+      "Haiti"
+     ],
+     [
+      "Escócia",
+      0,
+      2,
+      "Brasil"
+     ],
+     [
+      "Marrocos",
+      2,
+      0,
+      "Haiti"
+     ]
+    ],
     "class": [
      "Brasil",
      "Marrocos",
@@ -23831,7 +23942,44 @@
     ]
    },
    "D": {
-    "jogos": [],
+    "jogos": [
+     [
+      "EUA",
+      0,
+      0,
+      "Paraguai"
+     ],
+     [
+      "Austrália",
+      0,
+      1,
+      "Turquia"
+     ],
+     [
+      "Turquia",
+      0,
+      1,
+      "Paraguai"
+     ],
+     [
+      "EUA",
+      2,
+      0,
+      "Austrália"
+     ],
+     [
+      "Turquia",
+      1,
+      2,
+      "EUA"
+     ],
+     [
+      "Paraguai",
+      1,
+      1,
+      "Austrália"
+     ]
+    ],
     "class": [
      "EUA",
      "Paraguai",
@@ -23839,7 +23987,44 @@
     ]
    },
    "E": {
-    "jogos": [],
+    "jogos": [
+     [
+      "Alemanha",
+      5,
+      0,
+      "Curaçao"
+     ],
+     [
+      "Costa do Marfim",
+      2,
+      2,
+      "Equador"
+     ],
+     [
+      "Alemanha",
+      2,
+      1,
+      "Costa do Marfim"
+     ],
+     [
+      "Equador",
+      3,
+      0,
+      "Curaçao"
+     ],
+     [
+      "Equador",
+      1,
+      1,
+      "Alemanha"
+     ],
+     [
+      "Curaçao",
+      1,
+      3,
+      "Costa do Marfim"
+     ]
+    ],
     "class": [
      "Alemanha",
      "Equador",
@@ -23847,7 +24032,44 @@
     ]
    },
    "F": {
-    "jogos": [],
+    "jogos": [
+     [
+      "Holanda",
+      2,
+      2,
+      "Japão"
+     ],
+     [
+      "Suécia",
+      1,
+      0,
+      "Tunísia"
+     ],
+     [
+      "Holanda",
+      1,
+      0,
+      "Suécia"
+     ],
+     [
+      "Tunísia",
+      0,
+      2,
+      "Japão"
+     ],
+     [
+      "Japão",
+      1,
+      1,
+      "Suécia"
+     ],
+     [
+      "Tunísia",
+      0,
+      3,
+      "Holanda"
+     ]
+    ],
     "class": [
      "Holanda",
      "Japão",
@@ -23855,7 +24077,44 @@
     ]
    },
    "G": {
-    "jogos": [],
+    "jogos": [
+     [
+      "Irã",
+      1,
+      0,
+      "Nova Zelândia"
+     ],
+     [
+      "Bélgica",
+      2,
+      1,
+      "Egito"
+     ],
+     [
+      "Bélgica",
+      2,
+      0,
+      "Irã"
+     ],
+     [
+      "Nova Zelândia",
+      0,
+      1,
+      "Egito"
+     ],
+     [
+      "Egito",
+      1,
+      0,
+      "Irã"
+     ],
+     [
+      "Nova Zelândia",
+      0,
+      3,
+      "Bélgica"
+     ]
+    ],
     "class": [
      "Bélgica",
      "Egito",
@@ -23863,7 +24122,44 @@
     ]
    },
    "H": {
-    "jogos": [],
+    "jogos": [
+     [
+      "Espanha",
+      5,
+      0,
+      "Cabo Verde"
+     ],
+     [
+      "Arábia Saudita",
+      0,
+      2,
+      "Uruguai"
+     ],
+     [
+      "Espanha",
+      3,
+      1,
+      "Arábia Saudita"
+     ],
+     [
+      "Uruguai",
+      3,
+      1,
+      "Cabo Verde"
+     ],
+     [
+      "Cabo Verde",
+      0,
+      1,
+      "Arábia Saudita"
+     ],
+     [
+      "Uruguai",
+      1,
+      2,
+      "Espanha"
+     ]
+    ],
     "class": [
      "Espanha",
      "Uruguai",
@@ -23871,7 +24167,44 @@
     ]
    },
    "I": {
-    "jogos": [],
+    "jogos": [
+     [
+      "França",
+      3,
+      1,
+      "Senegal"
+     ],
+     [
+      "Iraque",
+      0,
+      3,
+      "Noruega"
+     ],
+     [
+      "França",
+      4,
+      0,
+      "Iraque"
+     ],
+     [
+      "Noruega",
+      2,
+      1,
+      "Senegal"
+     ],
+     [
+      "Noruega",
+      1,
+      1,
+      "França"
+     ],
+     [
+      "Senegal",
+      2,
+      0,
+      "Iraque"
+     ]
+    ],
     "class": [
      "França",
      "Noruega",
@@ -23879,7 +24212,44 @@
     ]
    },
    "J": {
-    "jogos": [],
+    "jogos": [
+     [
+      "Argentina",
+      2,
+      0,
+      "Argélia"
+     ],
+     [
+      "Áustria",
+      1,
+      0,
+      "Jordânia"
+     ],
+     [
+      "Argentina",
+      1,
+      0,
+      "Áustria"
+     ],
+     [
+      "Jordânia",
+      1,
+      2,
+      "Argélia"
+     ],
+     [
+      "Argélia",
+      1,
+      3,
+      "Áustria"
+     ],
+     [
+      "Jordânia",
+      0,
+      3,
+      "Argentina"
+     ]
+    ],
     "class": [
      "Argentina",
      "Áustria",
@@ -23887,7 +24257,44 @@
     ]
    },
    "K": {
-    "jogos": [],
+    "jogos": [
+     [
+      "Portugal",
+      3,
+      0,
+      "RD Congo"
+     ],
+     [
+      "Uzbequistão",
+      1,
+      2,
+      "Colômbia"
+     ],
+     [
+      "Portugal",
+      2,
+      1,
+      "Uzbequistão"
+     ],
+     [
+      "Colômbia",
+      2,
+      0,
+      "RD Congo"
+     ],
+     [
+      "Colômbia",
+      1,
+      0,
+      "Portugal"
+     ],
+     [
+      "RD Congo",
+      1,
+      1,
+      "Uzbequistão"
+     ]
+    ],
     "class": [
      "Colômbia",
      "Portugal",
@@ -23895,7 +24302,44 @@
     ]
    },
    "L": {
-    "jogos": [],
+    "jogos": [
+     [
+      "Inglaterra",
+      1,
+      0,
+      "Croácia"
+     ],
+     [
+      "Gana",
+      3,
+      0,
+      "Panamá"
+     ],
+     [
+      "Inglaterra",
+      2,
+      2,
+      "Gana"
+     ],
+     [
+      "Panamá",
+      1,
+      2,
+      "Croácia"
+     ],
+     [
+      "Panamá",
+      0,
+      3,
+      "Inglaterra"
+     ],
+     [
+      "Croácia",
+      1,
+      1,
+      "Gana"
+     ]
+    ],
     "class": [
      "Inglaterra",
      "Gana",
