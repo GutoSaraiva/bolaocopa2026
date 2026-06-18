@@ -1,0 +1,1233 @@
+{
+  "jogador": "Guto",
+  "grupos": {
+    "A": {
+      "jogos": [
+        {
+          "data": "11/06 - 16h",
+          "time1": "México",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "África do Sul"
+        },
+        {
+          "data": "11/06 - 23h",
+          "time1": "Coreia do Sul",
+          "gols1": 1,
+          "gols2": 1,
+          "time2": "Tchéquia"
+        },
+        {
+          "data": "18/06 - 13h",
+          "time1": "Tchéquia",
+          "gols1": 2,
+          "gols2": 1,
+          "time2": "África do Sul"
+        },
+        {
+          "data": "18/06 - 22h",
+          "time1": "México",
+          "gols1": 1,
+          "gols2": 0,
+          "time2": "Coreia do Sul"
+        },
+        {
+          "data": "24/06 - 22h",
+          "time1": "Tchéquia",
+          "gols1": 0,
+          "gols2": 2,
+          "time2": "México"
+        },
+        {
+          "data": "24/06 - 22h",
+          "time1": "África do Sul",
+          "gols1": 0,
+          "gols2": 2,
+          "time2": "Coreia do Sul"
+        }
+      ],
+      "classificacao": {
+        "1": "México",
+        "2": "Coreia do Sul",
+        "3": "Tchéquia"
+      }
+    },
+    "B": {
+      "jogos": [
+        {
+          "data": "12/06 - 16h",
+          "time1": "Canadá",
+          "gols1": 2,
+          "gols2": 1,
+          "time2": "Bósnia"
+        },
+        {
+          "data": "13/06 - 16h",
+          "time1": "Catar",
+          "gols1": 0,
+          "gols2": 1,
+          "time2": "Suíça"
+        },
+        {
+          "data": "18/06 - 16h",
+          "time1": "Suíça",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Bósnia"
+        },
+        {
+          "data": "18/06 - 19h",
+          "time1": "Canadá",
+          "gols1": 1,
+          "gols2": 1,
+          "time2": "Catar"
+        },
+        {
+          "data": "24/06 - 16h",
+          "time1": "Suíça",
+          "gols1": 1,
+          "gols2": 1,
+          "time2": "Canadá"
+        },
+        {
+          "data": "24/06 - 16h",
+          "time1": "Bósnia",
+          "gols1": 1,
+          "gols2": 2,
+          "time2": "Catar"
+        }
+      ],
+      "classificacao": {
+        "1": "Suiça",
+        "2": "Canada",
+        "3": "Catar"
+      }
+    },
+    "C": {
+      "jogos": [
+        {
+          "data": "13/06 - 19h",
+          "time1": "Brasil",
+          "gols1": 2,
+          "gols2": 1,
+          "time2": "Marrocos"
+        },
+        {
+          "data": "13/06 - 22h",
+          "time1": "Haiti",
+          "gols1": 0,
+          "gols2": 1,
+          "time2": "Escócia"
+        },
+        {
+          "data": "19/06 - 19h",
+          "time1": "Escócia",
+          "gols1": 0,
+          "gols2": 1,
+          "time2": "Marrocos"
+        },
+        {
+          "data": "19/06 - 21h30",
+          "time1": "Brasil",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Haiti"
+        },
+        {
+          "data": "24/06 - 19h",
+          "time1": "Escócia",
+          "gols1": 0,
+          "gols2": 2,
+          "time2": "Brasil"
+        },
+        {
+          "data": "24/06 - 19h",
+          "time1": "Marrocos",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Haiti"
+        }
+      ],
+      "classificacao": {
+        "1": "Brasil",
+        "2": "Marrocos",
+        "3": "Escócia"
+      }
+    },
+    "D": {
+      "jogos": [
+        {
+          "data": "12/06 - 22h",
+          "time1": "EUA",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Paraguai"
+        },
+        {
+          "data": "14/06 - 01h",
+          "time1": "Austrália",
+          "gols1": 1,
+          "gols2": 1,
+          "time2": "Turquia"
+        },
+        {
+          "data": "20/06 - 01h",
+          "time1": "Turquia",
+          "gols1": 1,
+          "gols2": 0,
+          "time2": "Paraguai"
+        },
+        {
+          "data": "19/06 - 16h",
+          "time1": "EUA",
+          "gols1": 2,
+          "gols2": 1,
+          "time2": "Austrália"
+        },
+        {
+          "data": "25/06 - 23h",
+          "time1": "Turquia",
+          "gols1": 0,
+          "gols2": 1,
+          "time2": "EUA"
+        },
+        {
+          "data": "25/06 - 23h",
+          "time1": "Paraguai",
+          "gols1": 0,
+          "gols2": 1,
+          "time2": "Austrália"
+        }
+      ],
+      "classificacao": {
+        "1": "EUA",
+        "2": "Austrália",
+        "3": "Turquia"
+      }
+    },
+    "E": {
+      "jogos": [
+        {
+          "data": "14/06 - 14h",
+          "time1": "Alemanha",
+          "gols1": 3,
+          "gols2": 0,
+          "time2": "Curaçao"
+        },
+        {
+          "data": "14/06 - 20h",
+          "time1": "Costa do Marfim",
+          "gols1": 1,
+          "gols2": 1,
+          "time2": "Equador"
+        },
+        {
+          "data": "20/06 - 17h",
+          "time1": "Alemanha",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Costa do Marfim"
+        },
+        {
+          "data": "20/06 - 21h",
+          "time1": "Equador",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Curaçao"
+        },
+        {
+          "data": "25/06 - 17h",
+          "time1": "Equador",
+          "gols1": 0,
+          "gols2": 1,
+          "time2": "Alemanha"
+        },
+        {
+          "data": "25/06 - 17h",
+          "time1": "Curaçao",
+          "gols1": 0,
+          "gols2": 2,
+          "time2": "Costa do Marfim"
+        }
+      ],
+      "classificacao": {
+        "1": "Alemanha",
+        "2": "Equador",
+        "3": "Costa do Marfim"
+      }
+    },
+    "F": {
+      "jogos": [
+        {
+          "data": "14/06 - 17h",
+          "time1": "Holanda",
+          "gols1": 2,
+          "gols2": 1,
+          "time2": "Japão"
+        },
+        {
+          "data": "14/06 - 23h",
+          "time1": "Suécia",
+          "gols1": 1,
+          "gols2": 0,
+          "time2": "Tunísia"
+        },
+        {
+          "data": "20/06 - 14h",
+          "time1": "Holanda",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Suécia"
+        },
+        {
+          "data": "21/06 - 01h",
+          "time1": "Tunísia",
+          "gols1": 0,
+          "gols2": 2,
+          "time2": "Japão"
+        },
+        {
+          "data": "25/06 - 20h",
+          "time1": "Japão",
+          "gols1": 1,
+          "gols2": 1,
+          "time2": "Suécia"
+        },
+        {
+          "data": "25/06 - 20h",
+          "time1": "Tunísia",
+          "gols1": 1,
+          "gols2": 2,
+          "time2": "Holanda"
+        }
+      ],
+      "classificacao": {
+        "1": "Holanda",
+        "2": "Japão",
+        "3": "Suécia"
+      }
+    },
+    "G": {
+      "jogos": [
+        {
+          "data": "15/06 - 22h",
+          "time1": "Irã",
+          "gols1": 1,
+          "gols2": 0,
+          "time2": "Nova Zelândia"
+        },
+        {
+          "data": "15/06 - 16h",
+          "time1": "Bélgica",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Egito"
+        },
+        {
+          "data": "21/06 - 16h",
+          "time1": "Bélgica",
+          "gols1": 1,
+          "gols2": 0,
+          "time2": "Irã"
+        },
+        {
+          "data": "21/06 - 22h",
+          "time1": "Nova Zelândia",
+          "gols1": 0,
+          "gols2": 2,
+          "time2": "Egito"
+        },
+        {
+          "data": "27/06 - 00h",
+          "time1": "Egito",
+          "gols1": 1,
+          "gols2": 1,
+          "time2": "Irã"
+        },
+        {
+          "data": "27/06 - 00h",
+          "time1": "Nova Zelândia",
+          "gols1": 0,
+          "gols2": 2,
+          "time2": "Bélgica"
+        }
+      ],
+      "classificacao": {
+        "1": "Bélgica",
+        "2": "Egito",
+        "3": "Irã"
+      }
+    },
+    "H": {
+      "jogos": [
+        {
+          "data": "15/06 - 13h",
+          "time1": "Espanha",
+          "gols1": 3,
+          "gols2": 0,
+          "time2": "Cabo Verde"
+        },
+        {
+          "data": "15/06 - 19h",
+          "time1": "Arábia Saudita",
+          "gols1": 0,
+          "gols2": 1,
+          "time2": "Uruguai"
+        },
+        {
+          "data": "21/06 - 13h",
+          "time1": "Espanha",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Arábia Saudita"
+        },
+        {
+          "data": "21/06 - 19h",
+          "time1": "Uruguai",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Cabo Verde"
+        },
+        {
+          "data": "26/06 - 21h",
+          "time1": "Cabo Verde",
+          "gols1": 0,
+          "gols2": 1,
+          "time2": "Arábia Saudita"
+        },
+        {
+          "data": "26/06 - 21h",
+          "time1": "Uruguai",
+          "gols1": 1,
+          "gols2": 2,
+          "time2": "Espanha"
+        }
+      ],
+      "classificacao": {
+        "1": "Espanha",
+        "2": "Uruguai",
+        "3": "Arábia Saudita"
+      }
+    },
+    "I": {
+      "jogos": [
+        {
+          "data": "16/06 - 16h",
+          "time1": "França",
+          "gols1": 2,
+          "gols2": 1,
+          "time2": "Senegal"
+        },
+        {
+          "data": "16/06 - 19h",
+          "time1": "Iraque",
+          "gols1": 0,
+          "gols2": 1,
+          "time2": "Noruega"
+        },
+        {
+          "data": "22/06 - 18h",
+          "time1": "França",
+          "gols1": 3,
+          "gols2": 0,
+          "time2": "Iraque"
+        },
+        {
+          "data": "22/06 - 21h",
+          "time1": "Noruega",
+          "gols1": 1,
+          "gols2": 1,
+          "time2": "Senegal"
+        },
+        {
+          "data": "26/06 - 16h",
+          "time1": "Noruega",
+          "gols1": 1,
+          "gols2": 2,
+          "time2": "França"
+        },
+        {
+          "data": "26/06 - 16h",
+          "time1": "Senegal",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Iraque"
+        }
+      ],
+      "classificacao": {
+        "1": "França",
+        "2": "Senegal",
+        "3": "Noruega"
+      }
+    },
+    "J": {
+      "jogos": [
+        {
+          "data": "16/06 - 22h",
+          "time1": "Argentina",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Argélia"
+        },
+        {
+          "data": "17/06 - 01h",
+          "time1": "Áustria",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Jordânia"
+        },
+        {
+          "data": "22/06 - 14h",
+          "time1": "Argentina",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Áustria"
+        },
+        {
+          "data": "23/06 - 00h",
+          "time1": "Jordânia",
+          "gols1": 0,
+          "gols2": 1,
+          "time2": "Argélia"
+        },
+        {
+          "data": "27/06 - 23h",
+          "time1": "Argélia",
+          "gols1": 1,
+          "gols2": 1,
+          "time2": "Áustria"
+        },
+        {
+          "data": "27/06 - 23h",
+          "time1": "Jordânia",
+          "gols1": 0,
+          "gols2": 2,
+          "time2": "Argentina"
+        }
+      ],
+      "classificacao": {
+        "1": "Argentina",
+        "2": "Áustria",
+        "3": "Argélia"
+      }
+    },
+    "K": {
+      "jogos": [
+        {
+          "data": "17/06 - 14h",
+          "time1": "Portugal",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "RD Congo"
+        },
+        {
+          "data": "17/06 - 23h",
+          "time1": "Uzbequistão",
+          "gols1": 0,
+          "gols2": 2,
+          "time2": "Colômbia"
+        },
+        {
+          "data": "23/06 - 14h",
+          "time1": "Portugal",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Uzbequistão"
+        },
+        {
+          "data": "23/06 - 23h",
+          "time1": "Colômbia",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "RD Congo"
+        },
+        {
+          "data": "27/06 - 20h30",
+          "time1": "Colômbia",
+          "gols1": 0,
+          "gols2": 1,
+          "time2": "Portugal"
+        },
+        {
+          "data": "27/06 - 20h30",
+          "time1": "RD Congo",
+          "gols1": 2,
+          "gols2": 1,
+          "time2": "Uzbequistão"
+        }
+      ],
+      "classificacao": {
+        "1": "Portugal",
+        "2": "Colômbia",
+        "3": "RD Congo"
+      }
+    },
+    "L": {
+      "jogos": [
+        {
+          "data": "17/06 - 17h",
+          "time1": "Inglaterra",
+          "gols1": 2,
+          "gols2": 1,
+          "time2": "Croácia"
+        },
+        {
+          "data": "17/06 - 20h",
+          "time1": "Gana",
+          "gols1": 2,
+          "gols2": 0,
+          "time2": "Panamá"
+        },
+        {
+          "data": "23/06 - 17h",
+          "time1": "Inglaterra",
+          "gols1": 3,
+          "gols2": 0,
+          "time2": "Gana"
+        },
+        {
+          "data": "23/06 - 20h",
+          "time1": "Panamá",
+          "gols1": 1,
+          "gols2": 2,
+          "time2": "Croácia"
+        },
+        {
+          "data": "27/06 - 18h",
+          "time1": "Panamá",
+          "gols1": 0,
+          "gols2": 2,
+          "time2": "Inglaterra"
+        },
+        {
+          "data": "27/06 - 18h",
+          "time1": "Croácia",
+          "gols1": 1,
+          "gols2": 1,
+          "time2": "Gana"
+        }
+      ],
+      "classificacao": {
+        "1": "Inglaterra",
+        "2": "Croácia",
+        "3": "Gana"
+      }
+    }
+  },
+  "fase_32": [
+    {
+      "jogo": 73,
+      "cidade": "Los Angeles",
+      "data": "28/06 - 16h",
+      "time1": "Coreia do Sul",
+      "gols90": [
+        2,
+        1
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Canada",
+      "avancou": "Coreia do Sul"
+    },
+    {
+      "jogo": 74,
+      "cidade": "Boston",
+      "data": "29/06 - 17h30",
+      "time1": "Alemanha",
+      "gols90": [
+        2,
+        1
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Turquia",
+      "avancou": "Alemanha"
+    },
+    {
+      "jogo": 75,
+      "cidade": "Monterrey",
+      "data": "29/06 - 22h",
+      "time1": "Holanda",
+      "gols90": [
+        2,
+        1
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Marrocos",
+      "avancou": "Holanda"
+    },
+    {
+      "jogo": 76,
+      "cidade": "Houston",
+      "data": "29/06 - 14h",
+      "time1": "Brasil",
+      "gols90": [
+        2,
+        1
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Japão",
+      "avancou": "Brasil"
+    },
+    {
+      "jogo": 77,
+      "cidade": "New York/NJ",
+      "data": "30/06 - 18h",
+      "time1": "França",
+      "gols90": [
+        2,
+        0
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Irã",
+      "avancou": "França"
+    },
+    {
+      "jogo": 78,
+      "cidade": "Dallas",
+      "data": "30/06 - 14h",
+      "time1": "Equador",
+      "gols90": [
+        0,
+        1
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Senegal",
+      "avancou": "Senegal"
+    },
+    {
+      "jogo": 79,
+      "cidade": "México City",
+      "data": "30/06 - 22h",
+      "time1": "México",
+      "gols90": [
+        2,
+        1
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Costa do Marfim",
+      "avancou": "México"
+    },
+    {
+      "jogo": 80,
+      "cidade": "Atlanta",
+      "data": "01/07 - 13h",
+      "time1": "Inglaterra",
+      "gols90": [
+        2,
+        1
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Noruega",
+      "avancou": "Inglaterra"
+    },
+    {
+      "jogo": 81,
+      "cidade": "San Francisco",
+      "data": "01/07 - 21h",
+      "time1": "EUA",
+      "gols90": [
+        2,
+        0
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Catar",
+      "avancou": "EUA"
+    },
+    {
+      "jogo": 82,
+      "cidade": "Seattle",
+      "data": "01/07 - 17h",
+      "time1": "Bélgica",
+      "gols90": [
+        1,
+        0
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Tchéquia",
+      "avancou": "Bélgica"
+    },
+    {
+      "jogo": 83,
+      "cidade": "Toronto",
+      "data": "02/07 - 20h",
+      "time1": "Colômbia",
+      "gols90": [
+        2,
+        1
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Croácia",
+      "avancou": "Colômbia"
+    },
+    {
+      "jogo": 84,
+      "cidade": "Los Angeles",
+      "data": "02/07 - 16h",
+      "time1": "Espanha",
+      "gols90": [
+        3,
+        0
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Áustria",
+      "avancou": "Espanha"
+    },
+    {
+      "jogo": 85,
+      "cidade": "Vancouver",
+      "data": "03/07 - 00h",
+      "time1": "Suiça",
+      "gols90": [
+        1,
+        0
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Argélia",
+      "avancou": "Suiça"
+    },
+    {
+      "jogo": 86,
+      "cidade": "Miami",
+      "data": "03/07 - 19h",
+      "time1": "Argentina",
+      "gols90": [
+        2,
+        1
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Uruguai",
+      "avancou": "Argentina"
+    },
+    {
+      "jogo": 87,
+      "cidade": "Kansas City",
+      "data": "03/07 - 22h30",
+      "time1": "Portugal",
+      "gols90": [
+        2,
+        0
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Gana",
+      "avancou": "Portugal"
+    },
+    {
+      "jogo": 88,
+      "cidade": "Dallas",
+      "data": "03/07 - 15h",
+      "time1": "Austrália",
+      "gols90": [
+        1,
+        2
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Egito",
+      "avancou": "Egito"
+    }
+  ],
+  "oitavas": [
+    {
+      "cidade": "Philadelphia",
+      "data": "04/07 - 18h",
+      "time1": "Alemanha",
+      "gols90": [
+        1,
+        2
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "França"
+    },
+    {
+      "cidade": "Houston",
+      "data": "04/07 - 14h",
+      "time1": "Coreia do Sul",
+      "gols90": [
+        1,
+        2
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Holanda"
+    },
+    {
+      "cidade": "New York/NJ",
+      "data": "05/07 - 17h",
+      "time1": "Brasil",
+      "gols90": [
+        2,
+        1
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Senegal"
+    },
+    {
+      "cidade": "México City",
+      "data": "05/07 - 21h",
+      "time1": "México",
+      "gols90": [
+        1,
+        2
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Inglaterra"
+    },
+    {
+      "cidade": "Dallas",
+      "data": "06/07 - 16h",
+      "time1": "Colômbia",
+      "gols90": [
+        0,
+        2
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Espanha"
+    },
+    {
+      "cidade": "Seattle",
+      "data": "06/07 - 21h",
+      "time1": "EUA",
+      "gols90": [
+        1,
+        2
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Bélgica"
+    },
+    {
+      "cidade": "Atlanta",
+      "data": "07/07 - 13h",
+      "time1": "Argentina",
+      "gols90": [
+        2,
+        0
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Egito"
+    },
+    {
+      "cidade": "Vancouver",
+      "data": "07/07 - 17h",
+      "time1": "Suiça",
+      "gols90": [
+        1,
+        2
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Portugal"
+    }
+  ],
+  "quartas": [
+    {
+      "cidade": "Boston",
+      "data": "09/07 - 17h",
+      "time1": "França",
+      "gols90": [
+        1,
+        0
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Holanda"
+    },
+    {
+      "cidade": "Los Angeles",
+      "data": "10/07 - 16h",
+      "time1": "Espanha",
+      "gols90": [
+        2,
+        1
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Bélgica"
+    },
+    {
+      "cidade": "Miami",
+      "data": "11/07 - 18h",
+      "time1": "Brasil",
+      "gols90": [
+        1,
+        2
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Inglaterra"
+    },
+    {
+      "cidade": "Kansas City",
+      "data": "11/07 - 22h",
+      "time1": "Argentina",
+      "gols90": [
+        1,
+        0
+      ],
+      "prorrogacao": [
+        null,
+        null
+      ],
+      "penaltis": [
+        null,
+        null
+      ],
+      "time2": "Portugal"
+    }
+  ],
+  "semifinais": [
+    {
+      "cidade": "Dallas",
+      "data": "14/07 - 16h",
+      "time1": "França",
+      "gols90": [
+        1,
+        1
+      ],
+      "prorrogacao": [
+        0,
+        0
+      ],
+      "penaltis": [
+        3,
+        4
+      ],
+      "time2": "Espanha"
+    },
+    {
+      "cidade": "Atlanta",
+      "data": "15/07 - 16h",
+      "time1": "Inglaterra",
+      "gols90": [
+        1,
+        1
+      ],
+      "prorrogacao": [
+        0,
+        0
+      ],
+      "penaltis": [
+        4,
+        3
+      ],
+      "time2": "Argentina"
+    }
+  ],
+  "terceiro_lugar": {
+    "cidade": "Miami",
+    "data": "18/07 - 18h",
+    "time1": "França",
+    "gols90": [
+      2,
+      1
+    ],
+    "time2": "Argentina"
+  },
+  "final": {
+    "data": "19/07 - 16h",
+    "time1": "Espanha",
+    "gols90": [
+      1,
+      1
+    ],
+    "prorrogacao": [
+      0,
+      0
+    ],
+    "penaltis": [
+      4,
+      3
+    ],
+    "time2": "Inglaterra"
+  },
+  "campeao": "Espanha",
+  "vice": "Inglaterra",
+  "bonus": {
+    "artilheiro": "Harry Kane",
+    "gols_artilheiro": 8,
+    "melhor_ataque": "Espanha",
+    "melhor_defesa": "Argentina",
+    "total_gols": 275
+  }
+}

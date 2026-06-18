@@ -1,0 +1,718 @@
+{
+ "data_snapshot": "2026-06-15",
+ "jogos_disputados": 21,
+ "ranking": [
+  {
+   "pos": "1º",
+   "nome": "Alexandre Capucho (Açaí)",
+   "total": 118,
+   "fase1": 118,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "2º",
+   "nome": "Alessandro Berê",
+   "total": 113,
+   "fase1": 113,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "3º",
+   "nome": "Rubem de Paula",
+   "total": 96,
+   "fase1": 96,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "4º",
+   "nome": "Garibes",
+   "total": 95,
+   "fase1": 95,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "5º",
+   "nome": "Carbonell",
+   "total": 94,
+   "fase1": 94,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "6º",
+   "nome": "Cauê Rademaker",
+   "total": 92,
+   "fase1": 92,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "7º",
+   "nome": "Leo Soares",
+   "total": 92,
+   "fase1": 92,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "8º",
+   "nome": "Pedro Augusto",
+   "total": 92,
+   "fase1": 92,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "9º",
+   "nome": "Thiago Ribeiro",
+   "total": 92,
+   "fase1": 92,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "10º",
+   "nome": "Gui Caram",
+   "total": 91,
+   "fase1": 91,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "11º",
+   "nome": "Marcelo Cabral",
+   "total": 91,
+   "fase1": 91,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "12º",
+   "nome": "Jorge Ramalho",
+   "total": 88,
+   "fase1": 88,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "13º",
+   "nome": "Christian",
+   "total": 87,
+   "fase1": 87,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "14º",
+   "nome": "Gabriel Barretti",
+   "total": 87,
+   "fase1": 87,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "15º",
+   "nome": "Luma",
+   "total": 87,
+   "fase1": 87,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "16º",
+   "nome": "Rafael Serbaro",
+   "total": 87,
+   "fase1": 87,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "17º",
+   "nome": "Fernando Lacerda",
+   "total": 86,
+   "fase1": 86,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "18º",
+   "nome": "Carolina Capucho",
+   "total": 85,
+   "fase1": 85,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "19º",
+   "nome": "Daso M Coimbra",
+   "total": 85,
+   "fase1": 85,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "20º",
+   "nome": "Sandro Eli",
+   "total": 85,
+   "fase1": 85,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "21º",
+   "nome": "Cristiano Mendonça",
+   "total": 84,
+   "fase1": 84,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "22º",
+   "nome": "Estevão Scripilliti",
+   "total": 84,
+   "fase1": 84,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "23º",
+   "nome": "Fernando Rocha",
+   "total": 84,
+   "fase1": 84,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "24º",
+   "nome": "Leonardo Siqueira",
+   "total": 84,
+   "fase1": 84,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "25º",
+   "nome": "Tiago Varalli",
+   "total": 84,
+   "fase1": 84,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "26º",
+   "nome": "Tato (Renato Flit)",
+   "total": 82,
+   "fase1": 82,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "27º",
+   "nome": "Beatriz Latorre",
+   "total": 80,
+   "fase1": 80,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "28º",
+   "nome": "Bernardo Rocha",
+   "total": 80,
+   "fase1": 80,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "29º",
+   "nome": "Daniel Boa Nova",
+   "total": 80,
+   "fase1": 80,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "30º",
+   "nome": "Felipe de Paula",
+   "total": 80,
+   "fase1": 80,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "31º",
+   "nome": "Igor Zibordi",
+   "total": 80,
+   "fase1": 80,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "32º",
+   "nome": "Paulo Victor",
+   "total": 80,
+   "fase1": 80,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "33º",
+   "nome": "Tanabe",
+   "total": 80,
+   "fase1": 80,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "34º",
+   "nome": "Almir Sanches",
+   "total": 79,
+   "fase1": 79,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "35º",
+   "nome": "Felipe Rocha",
+   "total": 78,
+   "fase1": 78,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "36º",
+   "nome": "Marcia Azenha",
+   "total": 78,
+   "fase1": 78,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "37º",
+   "nome": "Octavio Orzari",
+   "total": 78,
+   "fase1": 78,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "38º",
+   "nome": "Tiago Gavião",
+   "total": 78,
+   "fase1": 78,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "39º",
+   "nome": "Duda Coimbra",
+   "total": 77,
+   "fase1": 77,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "40º",
+   "nome": "Rogério da Veiga",
+   "total": 77,
+   "fase1": 77,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "41º",
+   "nome": "Thiago Cinelli",
+   "total": 77,
+   "fase1": 77,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "42º",
+   "nome": "Vladimir",
+   "total": 77,
+   "fase1": 77,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "43º",
+   "nome": "Camila Anticaglia",
+   "total": 75,
+   "fase1": 75,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "44º",
+   "nome": "Fábio Rocha",
+   "total": 75,
+   "fase1": 75,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "45º",
+   "nome": "Pedro Chueiri",
+   "total": 75,
+   "fase1": 75,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "46º",
+   "nome": "Rui de Oliveira Filho",
+   "total": 75,
+   "fase1": 75,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "47º",
+   "nome": "Everton Trindade",
+   "total": 74,
+   "fase1": 74,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "48º",
+   "nome": "Bernardo Ganso",
+   "total": 73,
+   "fase1": 73,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "49º",
+   "nome": "Denis Bomtempo",
+   "total": 73,
+   "fase1": 73,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "50º",
+   "nome": "Guilherme Assis",
+   "total": 73,
+   "fase1": 73,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "51º",
+   "nome": "Guto",
+   "total": 73,
+   "fase1": 73,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "52º",
+   "nome": "Heitor Aroeira",
+   "total": 73,
+   "fase1": 73,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "53º",
+   "nome": "Henrique Nunes",
+   "total": 73,
+   "fase1": 73,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "54º",
+   "nome": "Marcelo Frade",
+   "total": 73,
+   "fase1": 73,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "55º",
+   "nome": "Roberto Braga",
+   "total": 73,
+   "fase1": 73,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "56º",
+   "nome": "Fernanda Mora",
+   "total": 71,
+   "fase1": 71,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "57º",
+   "nome": "Bruno Varalli",
+   "total": 70,
+   "fase1": 70,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "58º",
+   "nome": "Heloisa Mora",
+   "total": 70,
+   "fase1": 70,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "59º",
+   "nome": "Henrique Frizzo",
+   "total": 70,
+   "fase1": 70,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "60º",
+   "nome": "Oscar",
+   "total": 70,
+   "fase1": 70,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "61º",
+   "nome": "Ricardo Rocha",
+   "total": 70,
+   "fase1": 70,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "62º",
+   "nome": "Alexandre Moretti",
+   "total": 68,
+   "fase1": 68,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "63º",
+   "nome": "Moisés",
+   "total": 68,
+   "fase1": 68,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "64º",
+   "nome": "Renato Izar",
+   "total": 68,
+   "fase1": 68,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "65º",
+   "nome": "Sérgio Cruz",
+   "total": 68,
+   "fase1": 68,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "66º",
+   "nome": "Sylvia Mora",
+   "total": 68,
+   "fase1": 68,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "67º",
+   "nome": "Helvio Mendes",
+   "total": 67,
+   "fase1": 67,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "68º",
+   "nome": "Janine Mello",
+   "total": 67,
+   "fase1": 67,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "69º",
+   "nome": "Mirena",
+   "total": 67,
+   "fase1": 67,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "70º",
+   "nome": "Herbert Quirino",
+   "total": 65,
+   "fase1": 65,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "71º",
+   "nome": "Marcel Belfiore",
+   "total": 65,
+   "fase1": 65,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "72º",
+   "nome": "Caca e Bibi",
+   "total": 63,
+   "fase1": 63,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "73º",
+   "nome": "Lucas Frizzo",
+   "total": 63,
+   "fase1": 63,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "74º",
+   "nome": "Thiago Pedroso",
+   "total": 63,
+   "fase1": 63,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "75º",
+   "nome": "Torrão",
+   "total": 63,
+   "fase1": 63,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "76º",
+   "nome": "Glemar Coelho",
+   "total": 62,
+   "fase1": 62,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "77º",
+   "nome": "Bernardo Paglia",
+   "total": 61,
+   "fase1": 61,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "78º",
+   "nome": "Didi Adriano",
+   "total": 61,
+   "fase1": 61,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "79º",
+   "nome": "Felipe Ramalho",
+   "total": 61,
+   "fase1": 61,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "80º",
+   "nome": "Guilherme Ramalho",
+   "total": 61,
+   "fase1": 61,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "81º",
+   "nome": "Diângeli Camargo",
+   "total": 60,
+   "fase1": 60,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "82º",
+   "nome": "César Frade",
+   "total": 59,
+   "fase1": 59,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "83º",
+   "nome": "Gustavo Coimbra",
+   "total": 59,
+   "fase1": 59,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "84º",
+   "nome": "Marcelo Conduru",
+   "total": 59,
+   "fase1": 59,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "85º",
+   "nome": "Jaercio Ferreira ",
+   "total": 56,
+   "fase1": 56,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "86º",
+   "nome": "Prober",
+   "total": 56,
+   "fase1": 56,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "87º",
+   "nome": "Silvio Godoy",
+   "total": 56,
+   "fase1": 56,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "88º",
+   "nome": "Vanessa Camargo",
+   "total": 56,
+   "fase1": 56,
+   "fase2": 0,
+   "bonus": 0
+  },
+  {
+   "pos": "89º",
+   "nome": "Cora",
+   "total": 51,
+   "fase1": 51,
+   "fase2": 0,
+   "bonus": 0
+  }
+ ]
+}

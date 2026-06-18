@@ -1,0 +1,654 @@
+{
+ "jogos_grupos": [
+  {
+   "grupo": "A",
+   "data": "11/06 - 16h",
+   "time1": "México",
+   "gols1": 2,
+   "gols2": 0,
+   "time2": "África do Sul",
+   "disputado": true
+  },
+  {
+   "grupo": "A",
+   "data": "11/06 - 23h",
+   "time1": "Coreia do Sul",
+   "gols1": 2,
+   "gols2": 1,
+   "time2": "Tchéquia",
+   "disputado": true
+  },
+  {
+   "grupo": "A",
+   "data": "18/06 - 13h",
+   "time1": "Tchéquia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "África do Sul",
+   "disputado": false
+  },
+  {
+   "grupo": "A",
+   "data": "18/06 - 22h",
+   "time1": "México",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Coreia do Sul",
+   "disputado": false
+  },
+  {
+   "grupo": "A",
+   "data": "24/06 - 22h",
+   "time1": "Tchéquia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "México",
+   "disputado": false
+  },
+  {
+   "grupo": "A",
+   "data": "24/06 - 22h",
+   "time1": "África do Sul",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Coreia do Sul",
+   "disputado": false
+  },
+  {
+   "grupo": "B",
+   "data": "12/06 - 16h",
+   "time1": "Canadá",
+   "gols1": 1,
+   "gols2": 1,
+   "time2": "Bósnia",
+   "disputado": true
+  },
+  {
+   "grupo": "B",
+   "data": "13/06 - 16h",
+   "time1": "Catar",
+   "gols1": 1,
+   "gols2": 1,
+   "time2": "Suíça",
+   "disputado": true
+  },
+  {
+   "grupo": "B",
+   "data": "18/06 - 16h",
+   "time1": "Suíça",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Bósnia",
+   "disputado": false
+  },
+  {
+   "grupo": "B",
+   "data": "18/06 - 19h",
+   "time1": "Canadá",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Catar",
+   "disputado": false
+  },
+  {
+   "grupo": "B",
+   "data": "24/06 - 16h",
+   "time1": "Suíça",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Canadá",
+   "disputado": false
+  },
+  {
+   "grupo": "B",
+   "data": "24/06 - 16h",
+   "time1": "Bósnia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Catar",
+   "disputado": false
+  },
+  {
+   "grupo": "C",
+   "data": "13/06 - 19h",
+   "time1": "Brasil",
+   "gols1": 1,
+   "gols2": 1,
+   "time2": "Marrocos",
+   "disputado": true
+  },
+  {
+   "grupo": "C",
+   "data": "13/06 - 22h",
+   "time1": "Haiti",
+   "gols1": 0,
+   "gols2": 1,
+   "time2": "Escócia",
+   "disputado": true
+  },
+  {
+   "grupo": "C",
+   "data": "19/06 - 19h",
+   "time1": "Escócia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Marrocos",
+   "disputado": false
+  },
+  {
+   "grupo": "C",
+   "data": "19/06 - 21h30",
+   "time1": "Brasil",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Haiti",
+   "disputado": false
+  },
+  {
+   "grupo": "C",
+   "data": "24/06 - 19h",
+   "time1": "Escócia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Brasil",
+   "disputado": false
+  },
+  {
+   "grupo": "C",
+   "data": "24/06 - 19h",
+   "time1": "Marrocos",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Haiti",
+   "disputado": false
+  },
+  {
+   "grupo": "D",
+   "data": "12/06 - 22h",
+   "time1": "EUA",
+   "gols1": 4,
+   "gols2": 1,
+   "time2": "Paraguai",
+   "disputado": true
+  },
+  {
+   "grupo": "D",
+   "data": "14/06 - 01h",
+   "time1": "Austrália",
+   "gols1": 2,
+   "gols2": 0,
+   "time2": "Turquia",
+   "disputado": true
+  },
+  {
+   "grupo": "D",
+   "data": "20/06 - 01h",
+   "time1": "Turquia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Paraguai",
+   "disputado": false
+  },
+  {
+   "grupo": "D",
+   "data": "19/06 - 16h",
+   "time1": "EUA",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Austrália",
+   "disputado": false
+  },
+  {
+   "grupo": "D",
+   "data": "25/06 - 23h",
+   "time1": "Turquia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "EUA",
+   "disputado": false
+  },
+  {
+   "grupo": "D",
+   "data": "25/06 - 23h",
+   "time1": "Paraguai",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Austrália",
+   "disputado": false
+  },
+  {
+   "grupo": "E",
+   "data": "14/06 - 14h",
+   "time1": "Alemanha",
+   "gols1": 7,
+   "gols2": 1,
+   "time2": "Curaçao",
+   "disputado": true
+  },
+  {
+   "grupo": "E",
+   "data": "14/06 - 20h",
+   "time1": "Costa do Marfim",
+   "gols1": 1,
+   "gols2": 0,
+   "time2": "Equador",
+   "disputado": true
+  },
+  {
+   "grupo": "E",
+   "data": "20/06 - 17h",
+   "time1": "Alemanha",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Costa do Marfim",
+   "disputado": false
+  },
+  {
+   "grupo": "E",
+   "data": "20/06 - 21h",
+   "time1": "Equador",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Curaçao",
+   "disputado": false
+  },
+  {
+   "grupo": "E",
+   "data": "25/06 - 17h",
+   "time1": "Equador",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Alemanha",
+   "disputado": false
+  },
+  {
+   "grupo": "E",
+   "data": "25/06 - 17h",
+   "time1": "Curaçao",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Costa do Marfim",
+   "disputado": false
+  },
+  {
+   "grupo": "F",
+   "data": "14/06 - 17h",
+   "time1": "Holanda",
+   "gols1": 2,
+   "gols2": 2,
+   "time2": "Japão",
+   "disputado": true
+  },
+  {
+   "grupo": "F",
+   "data": "14/06 - 23h",
+   "time1": "Suécia",
+   "gols1": 5,
+   "gols2": 1,
+   "time2": "Tunísia",
+   "disputado": true
+  },
+  {
+   "grupo": "F",
+   "data": "20/06 - 14h",
+   "time1": "Holanda",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Suécia",
+   "disputado": false
+  },
+  {
+   "grupo": "F",
+   "data": "21/06 - 01h",
+   "time1": "Tunísia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Japão",
+   "disputado": false
+  },
+  {
+   "grupo": "F",
+   "data": "25/06 - 20h",
+   "time1": "Japão",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Suécia",
+   "disputado": false
+  },
+  {
+   "grupo": "F",
+   "data": "25/06 - 20h",
+   "time1": "Tunísia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Holanda",
+   "disputado": false
+  },
+  {
+   "grupo": "G",
+   "data": "15/06 - 22h",
+   "time1": "Irã",
+   "gols1": 2,
+   "gols2": 2,
+   "time2": "Nova Zelândia",
+   "disputado": true
+  },
+  {
+   "grupo": "G",
+   "data": "15/06 - 16h",
+   "time1": "Bélgica",
+   "gols1": 1,
+   "gols2": 1,
+   "time2": "Egito",
+   "disputado": true
+  },
+  {
+   "grupo": "G",
+   "data": "21/06 - 16h",
+   "time1": "Bélgica",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Irã",
+   "disputado": false
+  },
+  {
+   "grupo": "G",
+   "data": "21/06 - 22h",
+   "time1": "Nova Zelândia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Egito",
+   "disputado": false
+  },
+  {
+   "grupo": "G",
+   "data": "27/06 - 00h",
+   "time1": "Egito",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Irã",
+   "disputado": false
+  },
+  {
+   "grupo": "G",
+   "data": "27/06 - 00h",
+   "time1": "Nova Zelândia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Bélgica",
+   "disputado": false
+  },
+  {
+   "grupo": "H",
+   "data": "15/06 - 13h",
+   "time1": "Espanha",
+   "gols1": 0,
+   "gols2": 0,
+   "time2": "Cabo Verde",
+   "disputado": true
+  },
+  {
+   "grupo": "H",
+   "data": "15/06 - 19h",
+   "time1": "Arábia Saudita",
+   "gols1": 1,
+   "gols2": 1,
+   "time2": "Uruguai",
+   "disputado": true
+  },
+  {
+   "grupo": "H",
+   "data": "21/06 - 13h",
+   "time1": "Espanha",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Arábia Saudita",
+   "disputado": false
+  },
+  {
+   "grupo": "H",
+   "data": "21/06 - 19h",
+   "time1": "Uruguai",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Cabo Verde",
+   "disputado": false
+  },
+  {
+   "grupo": "H",
+   "data": "26/06 - 21h",
+   "time1": "Cabo Verde",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Arábia Saudita",
+   "disputado": false
+  },
+  {
+   "grupo": "H",
+   "data": "26/06 - 21h",
+   "time1": "Uruguai",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Espanha",
+   "disputado": false
+  },
+  {
+   "grupo": "I",
+   "data": "16/06 - 16h",
+   "time1": "França",
+   "gols1": 3,
+   "gols2": 1,
+   "time2": "Senegal",
+   "disputado": true
+  },
+  {
+   "grupo": "I",
+   "data": "16/06 - 19h",
+   "time1": "Iraque",
+   "gols1": 1,
+   "gols2": 4,
+   "time2": "Noruega",
+   "disputado": true
+  },
+  {
+   "grupo": "I",
+   "data": "22/06 - 18h",
+   "time1": "França",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Iraque",
+   "disputado": false
+  },
+  {
+   "grupo": "I",
+   "data": "22/06 - 21h",
+   "time1": "Noruega",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Senegal",
+   "disputado": false
+  },
+  {
+   "grupo": "I",
+   "data": "26/06 - 16h",
+   "time1": "Noruega",
+   "gols1": null,
+   "gols2": null,
+   "time2": "França",
+   "disputado": false
+  },
+  {
+   "grupo": "I",
+   "data": "26/06 - 16h",
+   "time1": "Senegal",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Iraque",
+   "disputado": false
+  },
+  {
+   "grupo": "J",
+   "data": "16/06 - 22h",
+   "time1": "Argentina",
+   "gols1": 3,
+   "gols2": 0,
+   "time2": "Argélia",
+   "disputado": true
+  },
+  {
+   "grupo": "J",
+   "data": "17/06 - 01h",
+   "time1": "Áustria",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Jordânia",
+   "disputado": false
+  },
+  {
+   "grupo": "J",
+   "data": "22/06 - 14h",
+   "time1": "Argentina",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Áustria",
+   "disputado": false
+  },
+  {
+   "grupo": "J",
+   "data": "23/06 - 00h",
+   "time1": "Jordânia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Argélia",
+   "disputado": false
+  },
+  {
+   "grupo": "J",
+   "data": "27/06 - 23h",
+   "time1": "Argélia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Áustria",
+   "disputado": false
+  },
+  {
+   "grupo": "J",
+   "data": "27/06 - 23h",
+   "time1": "Jordânia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Argentina",
+   "disputado": false
+  },
+  {
+   "grupo": "K",
+   "data": "17/06 - 14h",
+   "time1": "Portugal",
+   "gols1": 1,
+   "gols2": 1,
+   "time2": "RD Congo",
+   "disputado": true
+  },
+  {
+   "grupo": "K",
+   "data": "17/06 - 23h",
+   "time1": "Uzbequistão",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Colômbia",
+   "disputado": false
+  },
+  {
+   "grupo": "K",
+   "data": "23/06 - 14h",
+   "time1": "Portugal",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Uzbequistão",
+   "disputado": false
+  },
+  {
+   "grupo": "K",
+   "data": "23/06 - 23h",
+   "time1": "Colômbia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "RD Congo",
+   "disputado": false
+  },
+  {
+   "grupo": "K",
+   "data": "27/06 - 20h30",
+   "time1": "Colômbia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Portugal",
+   "disputado": false
+  },
+  {
+   "grupo": "K",
+   "data": "27/06 - 20h30",
+   "time1": "RD Congo",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Uzbequistão",
+   "disputado": false
+  },
+  {
+   "grupo": "L",
+   "data": "17/06 - 17h",
+   "time1": "Inglaterra",
+   "gols1": 3,
+   "gols2": 2,
+   "time2": "Croácia",
+   "disputado": true
+  },
+  {
+   "grupo": "L",
+   "data": "17/06 - 20h",
+   "time1": "Gana",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Panamá",
+   "disputado": false
+  },
+  {
+   "grupo": "L",
+   "data": "23/06 - 17h",
+   "time1": "Inglaterra",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Gana",
+   "disputado": false
+  },
+  {
+   "grupo": "L",
+   "data": "23/06 - 20h",
+   "time1": "Panamá",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Croácia",
+   "disputado": false
+  },
+  {
+   "grupo": "L",
+   "data": "27/06 - 18h",
+   "time1": "Panamá",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Inglaterra",
+   "disputado": false
+  },
+  {
+   "grupo": "L",
+   "data": "27/06 - 18h",
+   "time1": "Croácia",
+   "gols1": null,
+   "gols2": null,
+   "time2": "Gana",
+   "disputado": false
+  }
+ ],
+ "disputados": 21,
+ "total": 72
+}
