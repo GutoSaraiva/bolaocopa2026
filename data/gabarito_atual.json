@@ -31,10 +31,10 @@
    "grupo": "A",
    "data": "18/06 - 22h",
    "time1": "México",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 1,
+   "gols2": 0,
    "time2": "Coreia do Sul",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "A",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 27,
+ "disputados": 28,
  "total": 72
 }
