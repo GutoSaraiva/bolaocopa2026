@@ -21,6 +21,7 @@ from datetime import date, timedelta
 # Adiciona engine/ ao path para importar scoring
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from scoring import (compute_ranking, save_snapshot, load_snapshot_anterior,
+                     save_snapshot_rodada, load_snapshot_anterior_rodada,
                      format_delta, score_match_grupo)
 
 
@@ -97,21 +98,25 @@ def main():
     with open(os.path.join(data_dir, 'gabarito_atual.json')) as f:
         gabarito = json.load(f)
 
-    # Snapshot anterior (busca até 7 dias atrás)
+    # Número de jogos disputados = identificador da "rodada"
     hoje = date.today().isoformat()
-    snap_anterior, data_snap = load_snapshot_anterior(hoje, historico_dir)
-    if snap_anterior:
-        print(f"📅 Snapshot anterior encontrado: {data_snap}")
-    else:
-        print(f"📅 Sem snapshot anterior (primeiro dia)")
+    n_jogos = sum(1 for j in gabarito['jogos_grupos'] if j['disputado'])
 
-    # Computa ranking
+    # Carrega a foto da rodada ANTERIOR (referência para o delta)
+    snap_anterior, n_anterior = load_snapshot_anterior_rodada(n_jogos, historico_dir)
+    if snap_anterior:
+        print(f"📸 Rodada de referência: {n_anterior} jogos (atual: {n_jogos})")
+    else:
+        print(f"📸 Sem rodada anterior (primeira foto, {n_jogos} jogos)")
+
+    # Computa ranking usando a foto anterior como referência do delta
     ranking = compute_ranking(palpites, gabarito, snap_anterior)
     print(f"✅ Ranking calculado: {len(ranking)} participantes")
 
-    # Salva snapshot de hoje (para delta de amanhã)
-    save_snapshot(ranking, hoje, dir_historico=historico_dir)
-    print(f"💾 Snapshot de hoje salvo: data/historico/{hoje}.json")
+    # Salva a foto da rodada ATUAL (não sobrescreve se já existir)
+    save_snapshot_rodada(ranking, n_jogos, hoje, dir_historico=historico_dir)
+    print(f"💾 Snapshot da rodada salvo: data/historico/jogos_{n_jogos:03d}.json")
+    data_snap = n_anterior  # para o output
 
     # Output para a página web
     output = {

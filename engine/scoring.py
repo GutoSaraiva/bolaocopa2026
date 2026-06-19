@@ -202,9 +202,65 @@ def format_delta(delta):
     return f"▲{delta}" if delta > 0 else f"▼{abs(delta)}"
 
 
-# ============= SNAPSHOTS DIÁRIOS =============
+# ============= SNAPSHOTS POR RODADA =============
+# A "rodada" é identificada pelo número de jogos disputados. Uma nova foto de
+# referência só é gravada quando esse número muda (uma rodada avançou). Assim o
+# delta mostra sempre o efeito da última rodada, e permanece estável em dias sem
+# jogo (em vez de zerar).
+
+def _snapshot_path(dir_historico, n_jogos):
+    return os.path.join(dir_historico, f"jogos_{n_jogos:03d}.json")
+
+
+def save_snapshot_rodada(ranking, n_jogos, data_str, dir_historico='data/historico'):
+    """
+    Salva a foto do ranking no estado atual de jogos disputados.
+    Não sobrescreve se já existir um snapshot para esse número de jogos
+    (preserva a foto de abertura daquela rodada).
+    """
+    os.makedirs(dir_historico, exist_ok=True)
+    path = _snapshot_path(dir_historico, n_jogos)
+    if os.path.exists(path):
+        return path  # já existe, não sobrescreve
+    snapshot = {r['jogador']: r['pos'] for r in ranking}
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump({
+            'data': data_str,
+            'jogos_disputados': n_jogos,
+            'posicoes': snapshot,
+            'total_participantes': len(ranking)
+        }, f, ensure_ascii=False, indent=1)
+    return path
+
+
+def load_snapshot_anterior_rodada(n_jogos_atual, dir_historico='data/historico'):
+    """
+    Carrega a foto da rodada IMEDIATAMENTE anterior à atual.
+    Procura o maior número de jogos < n_jogos_atual que tenha snapshot.
+    Retorna (dict {nome: pos}, n_jogos_daquele_snapshot) ou (None, None).
+    """
+    if not os.path.isdir(dir_historico):
+        return None, None
+    candidatos = []
+    for fname in os.listdir(dir_historico):
+        if fname.startswith('jogos_') and fname.endswith('.json'):
+            try:
+                n = int(fname[6:9])
+            except ValueError:
+                continue
+            if n < n_jogos_atual:
+                candidatos.append(n)
+    if not candidatos:
+        return None, None
+    n_anterior = max(candidatos)
+    path = _snapshot_path(dir_historico, n_anterior)
+    with open(path) as f:
+        return json.load(f)['posicoes'], n_anterior
+
+
+# ============= SNAPSHOTS (compat. legado por data) =============
 def save_snapshot(ranking, data_str, dir_historico='data/historico'):
-    """Salva snapshot do ranking de um dia."""
+    """[legado] Salva snapshot por data. Mantido por compatibilidade."""
     os.makedirs(dir_historico, exist_ok=True)
     snapshot = {r['jogador']: r['pos'] for r in ranking}
     path = os.path.join(dir_historico, f"{data_str}.json")
@@ -218,7 +274,7 @@ def save_snapshot(ranking, data_str, dir_historico='data/historico'):
 
 
 def load_snapshot(data_str, dir_historico='data/historico'):
-    """Carrega snapshot de um dia. Retorna dict {nome: pos} ou None."""
+    """[legado] Carrega snapshot por data."""
     path = os.path.join(dir_historico, f"{data_str}.json")
     if not os.path.exists(path): return None
     with open(path) as f:
@@ -226,7 +282,7 @@ def load_snapshot(data_str, dir_historico='data/historico'):
 
 
 def load_snapshot_anterior(data_atual_str, dir_historico='data/historico'):
-    """Procura snapshot do dia anterior (até 7 dias pra trás)."""
+    """[legado] Procura snapshot do dia anterior (até 7 dias pra trás)."""
     data_atual = date.fromisoformat(data_atual_str)
     for dias_atras in range(1, 8):
         d = (data_atual - timedelta(days=dias_atras)).isoformat()
