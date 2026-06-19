@@ -22,10 +22,10 @@
    "grupo": "A",
    "data": "18/06 - 13h",
    "time1": "Tchéquia",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 1,
+   "gols2": 1,
    "time2": "África do Sul",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "A",
@@ -76,19 +76,19 @@
    "grupo": "B",
    "data": "18/06 - 16h",
    "time1": "Suíça",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 4,
+   "gols2": 1,
    "time2": "Bósnia",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "B",
    "data": "18/06 - 19h",
    "time1": "Canadá",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 6,
+   "gols2": 0,
    "time2": "Catar",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "B",
@@ -499,10 +499,10 @@
    "grupo": "J",
    "data": "17/06 - 01h",
    "time1": "Áustria",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 3,
+   "gols2": 1,
    "time2": "Jordânia",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "J",
@@ -553,10 +553,10 @@
    "grupo": "K",
    "data": "17/06 - 23h",
    "time1": "Uzbequistão",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 1,
+   "gols2": 3,
    "time2": "Colômbia",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "K",
@@ -598,7 +598,7 @@
    "grupo": "L",
    "data": "17/06 - 17h",
    "time1": "Inglaterra",
-   "gols1": 3,
+   "gols1": 4,
    "gols2": 2,
    "time2": "Croácia",
    "disputado": true
@@ -607,10 +607,10 @@
    "grupo": "L",
    "data": "17/06 - 20h",
    "time1": "Gana",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 1,
+   "gols2": 0,
    "time2": "Panamá",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "L",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 21,
+ "disputados": 27,
  "total": 72
 }
