@@ -467,6 +467,152 @@ a:hover { text-decoration: underline; }
   color: var(--text-muted);
 }
 
+/* ============= TABELÃO ============= */
+.tabelao-legend {
+  display: flex; flex-wrap: wrap; gap: 18px;
+  margin-bottom: 16px;
+}
+.leg-item {
+  display: flex; align-items: center; gap: 7px;
+  font-family: var(--font-mono); font-size: 11px;
+  color: var(--text-muted);
+}
+.leg-swatch {
+  width: 14px; height: 14px; display: inline-block;
+  border: 1px solid var(--border-mid);
+}
+.leg-swatch.pts-12 { background: #2FA866; border-color: #38C878; }
+.leg-swatch.pts-9  { background: #2A7A52; border-color: #389968; }
+.leg-swatch.pts-7  { background: #234B3E; border-color: #2E6450; }
+.leg-swatch.pts-0  { background: var(--bg-elevated); }
+.leg-swatch.pts-fut { background: transparent; border-style: dashed; }
+
+.tabelao-controls {
+  display: flex; gap: 8px; align-items: center;
+  margin-bottom: 16px;
+}
+
+.tabelao-wrap {
+  overflow: auto;
+  max-height: 78vh;
+  border: 1px solid var(--border-dim);
+  position: relative;
+}
+.tabelao-loading {
+  padding: 40px; text-align: center;
+  font-family: var(--font-mono); color: var(--text-dim);
+}
+
+.tabelao-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  font-family: var(--font-mono);
+}
+
+/* Cabeçalho fixo no topo */
+.tabelao-table thead th {
+  position: sticky; top: 0; z-index: 20;
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border-mid);
+  border-right: 1px solid var(--border-dim);
+  padding: 0;
+  height: 92px;
+  vertical-align: bottom;
+}
+
+/* Coluna de nome fixa à esquerda */
+.tabelao-table .th-name,
+.tabelao-table .td-name {
+  position: sticky; left: 0; z-index: 15;
+  background: var(--bg-surface);
+  border-right: 1px solid var(--border-mid);
+  min-width: 168px; max-width: 168px;
+  text-align: left;
+  padding: 8px 12px;
+}
+/* Canto superior esquerdo: precisa de z maior pra ficar acima de tudo */
+.tabelao-table .th-name { z-index: 25; top: 0; }
+
+.th-name-inner {
+  display: flex; flex-direction: column; justify-content: flex-end;
+  height: 100%;
+}
+.th-name-label {
+  font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+/* Cabeçalho de cada jogo: texto girado */
+.th-game {
+  width: 30px; min-width: 30px; max-width: 30px;
+}
+.th-game-inner {
+  display: flex; flex-direction: column; align-items: center;
+  gap: 3px;
+  padding-bottom: 6px;
+}
+.th-game-teams {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 10px; color: var(--text-muted);
+  white-space: nowrap;
+  height: 66px;
+  overflow: hidden;
+  letter-spacing: 0.02em;
+}
+.th-game.disputado .th-game-teams { color: var(--text-primary); }
+.th-game-grupo {
+  font-size: 8px; color: var(--text-dim);
+  font-weight: 600;
+}
+.th-game-real {
+  font-size: 9px; font-weight: 700; color: var(--amber);
+  font-variant-numeric: tabular-nums;
+}
+.th-game-real.pendente { color: var(--text-dim); font-weight: 400; }
+
+/* separador entre grupos */
+.th-game.grupo-start, .td-cell.grupo-start { border-left: 2px solid var(--border-mid); }
+
+/* Linhas */
+.tabelao-table tbody tr { border-bottom: 1px solid var(--border-dim); }
+.tabelao-table tbody tr:hover .td-name { background: var(--bg-row-hover); }
+.tabelao-table tbody tr.is-guto .td-name {
+  background: var(--bg-row-guto);
+  color: var(--amber); font-weight: 600;
+}
+.tabelao-table tbody tr.is-guto .td-name::before {
+  content: ''; position: absolute; left: 0; top: 0; bottom: 0;
+  width: 3px; background: var(--amber);
+}
+
+.td-name {
+  font-size: 12px; color: var(--text-primary);
+}
+.td-name-pos {
+  font-size: 10px; color: var(--text-dim);
+  margin-right: 6px;
+}
+.is-guto .td-name-pos { color: var(--amber); }
+
+/* Células de palpite */
+.td-cell {
+  width: 30px; min-width: 30px; max-width: 30px;
+  height: 26px;
+  text-align: center;
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  border-right: 1px solid rgba(36, 59, 90, 0.5);
+  color: var(--text-muted);
+  cursor: default;
+}
+.td-cell.pts-12 { background: #2FA866; color: #06140C; font-weight: 700; }
+.td-cell.pts-9  { background: #2A7A52; color: #F5F1E8; font-weight: 600; }
+.td-cell.pts-7  { background: #234B3E; color: #C8E6D5; }
+.td-cell.pts-0  { background: var(--bg-elevated); color: var(--text-dim); }
+.td-cell.pts-fut { color: var(--text-muted); }
+.td-cell.empty { color: var(--text-dim); opacity: 0.3; }
+
 /* ============= FOOTER ============= */
 .footer { margin-top: 80px; padding-top: 24px; border-top: 1px solid var(--border-dim); }
 .footer-inner {

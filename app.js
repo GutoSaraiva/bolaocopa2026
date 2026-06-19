@@ -5,6 +5,7 @@ let DATA_RANKING = null;
 let DATA_GABARITO = null;
 let DATA_PALPITES = null;
 let DATA_PALPITE_GUTO = null;
+let DATA_TABELAO = null;
 let currentFilter = 'all';
 let currentView = 'ranking';
 let selectedPalpite = null;
@@ -41,6 +42,7 @@ function showView(view) {
   // Lazy load
   if (view === 'gabarito' && !DATA_GABARITO) loadGabarito();
   else if (view === 'gabarito') renderGabarito();
+  if (view === 'tabelao' && !DATA_TABELAO) loadTabelao();
   if (view === 'palpites' && !DATA_PALPITES) loadPalpites();
 }
 
@@ -236,6 +238,89 @@ function renderGabarito() {
       </article>
     `;
   }).join('');
+}
+
+// ============= RENDER: TABELÃO =============
+async function loadTabelao() {
+  try {
+    const resp = await fetch('data/tabelao.json?t=' + Date.now());
+    if (!resp.ok) throw new Error(`Erro ${resp.status}`);
+    DATA_TABELAO = await resp.json();
+    renderTabelao();
+  } catch (err) {
+    console.error(err);
+    document.getElementById('tabelao-wrap').innerHTML =
+      `<div class="tabelao-loading" style="color: var(--red);">Erro carregando tabelão: ${err.message}</div>`;
+  }
+}
+
+function ptsClass(pts) {
+  if (pts === null || pts === undefined) return 'pts-fut';
+  if (pts === 12) return 'pts-12';
+  if (pts === 9) return 'pts-9';
+  if (pts === 7) return 'pts-7';
+  return 'pts-0';
+}
+
+function renderTabelao() {
+  if (!DATA_TABELAO) return;
+  const { colunas, linhas } = DATA_TABELAO;
+
+  // Detecta início de cada grupo (para separador visual)
+  const grupoStart = colunas.map((c, i) => i === 0 || c.grupo !== colunas[i-1].grupo);
+
+  // Cabeçalho
+  const headCells = colunas.map((c, i) => {
+    const cls = `th-game ${c.disputado ? 'disputado' : ''} ${grupoStart[i] ? 'grupo-start' : ''}`;
+    const realStr = c.disputado
+      ? `<span class="th-game-real">${c.real[0]}-${c.real[1]}</span>`
+      : `<span class="th-game-real pendente">·</span>`;
+    return `
+      <th class="${cls}">
+        <div class="th-game-inner">
+          <span class="th-game-teams">${c.time1.slice(0,3).toUpperCase()} × ${c.time2.slice(0,3).toUpperCase()}</span>
+          <span class="th-game-grupo">${c.grupo}</span>
+          ${realStr}
+        </div>
+      </th>`;
+  }).join('');
+
+  // Linhas
+  const bodyRows = linhas.map(l => {
+    const isGuto = l.jogador === GUTO;
+    const cells = l.cells.map((cell, i) => {
+      const gs = grupoStart[i] ? 'grupo-start' : '';
+      if (cell.p === null) {
+        return `<td class="td-cell empty ${gs}">·</td>`;
+      }
+      const cls = ptsClass(cell.pts);
+      return `<td class="td-cell ${cls} ${gs}" title="${l.jogador}: ${cell.p[0]}-${cell.p[1]}${cell.pts !== null ? ' ('+cell.pts+'pts)' : ''}">${cell.p[0]}-${cell.p[1]}</td>`;
+    }).join('');
+    return `
+      <tr class="${isGuto ? 'is-guto' : ''}" data-name="${l.jogador.replace(/"/g, '&quot;')}">
+        <td class="td-name"><span class="td-name-pos">${l.pos}</span>${l.jogador}</td>
+        ${cells}
+      </tr>`;
+  }).join('');
+
+  document.getElementById('tabelao-wrap').innerHTML = `
+    <table class="tabelao-table">
+      <thead>
+        <tr>
+          <th class="th-name"><div class="th-name-inner"><span class="th-name-label">apostador</span></div></th>
+          ${headCells}
+        </tr>
+      </thead>
+      <tbody>${bodyRows}</tbody>
+    </table>`;
+}
+
+function filterTabelao() {
+  const q = document.getElementById('tabelao-search').value.toLowerCase().trim();
+  document.querySelectorAll('.tabelao-table tbody tr').forEach(tr => {
+    const name = tr.dataset.name.toLowerCase();
+    tr.style.display = (!q || name.includes(q)) ? '' : 'none';
+  });
 }
 
 // ============= RENDER: PALPITES =============
@@ -467,6 +552,15 @@ function setupFilters() {
   // Palpites search
   const psearch = document.getElementById('palpites-search');
   if (psearch) psearch.addEventListener('input', renderPalpitesList);
+
+  // Tabelão
+  const tsearch = document.getElementById('tabelao-search');
+  if (tsearch) tsearch.addEventListener('input', filterTabelao);
+  const tjump = document.getElementById('tabelao-jump-guto');
+  if (tjump) tjump.addEventListener('click', () => {
+    const row = document.querySelector('.tabelao-table tr.is-guto');
+    if (row) row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
 }
 
 // ============= INIT =============

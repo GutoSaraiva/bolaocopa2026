@@ -28,6 +28,7 @@
     <div class="tabs-inner">
       <button class="tab active" data-view="ranking">ranking</button>
       <button class="tab" data-view="gabarito">gabarito</button>
+      <button class="tab" data-view="tabelao">tabelão</button>
       <button class="tab" data-view="palpites">palpites</button>
       <button class="tab" data-view="regras">regras</button>
     </div>
@@ -115,6 +116,28 @@
       <p class="view-sub">resultados reais dos jogos com classificação atualizada</p>
     </section>
     <div class="groups-grid" id="groups-grid"></div>
+  </div>
+
+  <!-- =================== VIEW: TABELÃO =================== -->
+  <div class="view" data-view="tabelao" hidden>
+    <section class="view-header">
+      <h2 class="section-title">tabelão · matriz de palpites</h2>
+      <p class="view-sub">cada célula mostra o palpite e a cor indica os pontos feitos · role para o lado para ver todos os jogos</p>
+    </section>
+    <div class="tabelao-legend">
+      <span class="leg-item"><span class="leg-swatch pts-12"></span>placar exato · 12pts</span>
+      <span class="leg-item"><span class="leg-swatch pts-9"></span>resultado + gols · 9pts</span>
+      <span class="leg-item"><span class="leg-swatch pts-7"></span>resultado · 7pts</span>
+      <span class="leg-item"><span class="leg-swatch pts-0"></span>errou · 0pts</span>
+      <span class="leg-item"><span class="leg-swatch pts-fut"></span>jogo futuro</span>
+    </div>
+    <div class="tabelao-controls">
+      <input type="text" id="tabelao-search" class="search-box" placeholder="buscar apostador...">
+      <button class="filter-action" id="tabelao-jump-guto">↓ guto</button>
+    </div>
+    <div class="tabelao-wrap" id="tabelao-wrap">
+      <div class="tabelao-loading">carregando matriz...</div>
+    </div>
   </div>
 
   <!-- =================== VIEW: PALPITES =================== -->
