@@ -21,7 +21,68 @@ from datetime import date, timedelta
 # Adiciona engine/ ao path para importar scoring
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from scoring import (compute_ranking, save_snapshot, load_snapshot_anterior,
-                     format_delta)
+                     format_delta, score_match_grupo)
+
+
+def gerar_tabelao(palpites, gabarito, ranking, data_dir):
+    """
+    Gera a matriz apostadores × jogos de grupos.
+    Cada célula: {p: [g1,g2] palpite, pts: pontos ou None se futuro/sem palpite}.
+    Linhas ordenadas pela posição no ranking; colunas na ordem do gabarito.
+    """
+    jogos_grupos = gabarito['jogos_grupos']
+    colunas = [{
+        'grupo': j['grupo'], 'time1': j['time1'], 'time2': j['time2'],
+        'real': [j['gols1'], j['gols2']] if j['disputado'] else None,
+        'disputado': j['disputado'], 'data': j.get('data', '')
+    } for j in jogos_grupos]
+
+    gab_idx = {(j['grupo'], j['time1'], j['time2']): j for j in jogos_grupos}
+
+    def palpite_cells(nome):
+        p = palpites.get(nome)
+        if not p:
+            k = next((k for k in palpites
+                      if k.lower().replace(' ', '') == nome.lower().replace(' ', '')), None)
+            if k: p = palpites[k]
+        if not p: return {}
+        cells = {}
+        for g, info in p['grupos'].items():
+            for jogo in info['jogos']:
+                if isinstance(jogo, dict):
+                    t1, g1, g2, t2 = jogo['time1'], jogo['gols1'], jogo['gols2'], jogo['time2']
+                else:
+                    t1, g1, g2, t2 = jogo[0], jogo[1], jogo[2], jogo[3]
+                cells[(g, t1, t2)] = [g1, g2]
+        return cells
+
+    linhas = []
+    for r in ranking:
+        nome = r['jogador']
+        cells_palpite = palpite_cells(nome)
+        row_cells = []
+        for col in colunas:
+            key = (col['grupo'], col['time1'], col['time2'])
+            palp = cells_palpite.get(key)
+            if palp is None:
+                row_cells.append({'p': None, 'pts': None})
+            elif col['disputado']:
+                real = gab_idx[key]
+                pts = score_match_grupo(palp[0], palp[1], real['gols1'], real['gols2'])
+                row_cells.append({'p': palp, 'pts': pts})
+            else:
+                row_cells.append({'p': palp, 'pts': None})
+        linhas.append({
+            'jogador': nome, 'pos': r['pos_label'],
+            'total': r['total'], 'cells': row_cells
+        })
+
+    matriz = {
+        'colunas': colunas, 'linhas': linhas,
+        'jogos_disputados': sum(1 for c in colunas if c['disputado']),
+    }
+    with open(os.path.join(data_dir, 'tabelao.json'), 'w', encoding='utf-8') as f:
+        json.dump(matriz, f, ensure_ascii=False, separators=(',', ':'))
 
 
 def main():
@@ -81,6 +142,10 @@ def main():
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=1)
     print(f"💾 Output da UI salvo: data/ranking_calculado.json")
+
+    # === TABELÃO: matriz apostadores × jogos de grupos ===
+    gerar_tabelao(palpites, gabarito, ranking, data_dir)
+    print(f"💾 Tabelão salvo: data/tabelao.json")
 
     # Imprime top 10 + Guto
     print(f"\n=== TOP 10 ===")
