@@ -19,6 +19,10 @@
       <span class="brand-sub">/ tracker pessoal</span>
     </div>
     <div class="meta">
+      <span class="meta-item meta-eu">
+        <span class="meta-label">você é</span>
+        <select id="eu-select" class="eu-select"></select>
+      </span>
       <span class="meta-item"><span class="meta-label">jogos</span><span class="meta-val" id="meta-jogos">–</span></span>
       <span class="meta-item"><span class="meta-label">participantes</span><span class="meta-val" id="meta-part">–</span></span>
       <span class="meta-item"><span class="meta-label">atualizado</span><span class="meta-val" id="meta-data">–</span></span>
@@ -29,6 +33,7 @@
       <button class="tab active" data-view="ranking">ranking</button>
       <button class="tab" data-view="gabarito">gabarito</button>
       <button class="tab" data-view="tabelao">tabelão</button>
+      <button class="tab" data-view="simulador">simulador</button>
       <button class="tab" data-view="palpites">palpites</button>
       <button class="tab" data-view="regras">regras</button>
     </div>
@@ -83,10 +88,10 @@
         <div class="ranking-filters">
           <button class="filter active" data-filter="all">todos</button>
           <button class="filter" data-filter="top10">top 10</button>
-          <button class="filter" data-filter="neighbors">vizinhos do guto</button>
+          <button class="filter" data-filter="neighbors">meus vizinhos</button>
           <button class="filter" data-filter="search">buscar...</button>
           <input type="text" id="search-input" class="search-box" placeholder="digite o nome..." style="display:none;">
-          <button class="filter-action" id="jump-guto">↓ guto</button>
+          <button class="filter-action" id="jump-guto">↓ você</button>
         </div>
       </div>
       <div class="table-wrap">
@@ -133,10 +138,44 @@
     </div>
     <div class="tabelao-controls">
       <input type="text" id="tabelao-search" class="search-box" placeholder="buscar apostador...">
-      <button class="filter-action" id="tabelao-jump-guto">↓ guto</button>
+      <button class="filter-action" id="tabelao-jump-guto">↓ você</button>
     </div>
     <div class="tabelao-wrap" id="tabelao-wrap">
       <div class="tabelao-loading">carregando matriz...</div>
+    </div>
+  </div>
+
+  <!-- =================== VIEW: SIMULADOR =================== -->
+  <div class="view" data-view="simulador" hidden>
+    <section class="view-header">
+      <h2 class="section-title">simulador · e se...?</h2>
+      <p class="view-sub">defina placares hipotéticos para os jogos de grupos que ainda não aconteceram e veja o impacto no seu desempenho e no ranking completo</p>
+    </section>
+    <div id="sim-content" class="sim-layout">
+      <div class="sim-left">
+        <div id="sim-impacto" class="sim-impacto"></div>
+        <div id="sim-jogos" class="sim-jogos"></div>
+      </div>
+      <div class="sim-right">
+        <div class="sim-ranking-head">
+          <h3 class="section-title">ranking simulado</h3>
+          <p class="view-sub">reflete os placares que você preencheu</p>
+        </div>
+        <div class="table-wrap sim-ranking-wrap">
+          <table class="ranking-table">
+            <thead>
+              <tr>
+                <th class="col-delta">Δ</th>
+                <th class="col-pos">pos</th>
+                <th class="col-name">jogador</th>
+                <th class="col-num">total</th>
+                <th class="col-num">gap líder</th>
+              </tr>
+            </thead>
+            <tbody id="sim-ranking-body"></tbody>
+          </table>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -249,6 +288,7 @@
 
 </main>
 
+<script src="engine.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
