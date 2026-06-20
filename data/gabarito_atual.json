@@ -130,10 +130,10 @@
    "grupo": "C",
    "data": "19/06 - 19h",
    "time1": "Escócia",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 0,
+   "gols2": 1,
    "time2": "Marrocos",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "C",
@@ -193,10 +193,10 @@
    "grupo": "D",
    "data": "19/06 - 16h",
    "time1": "EUA",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 2,
+   "gols2": 0,
    "time2": "Austrália",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "D",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 28,
+ "disputados": 30,
  "total": 72
 }
