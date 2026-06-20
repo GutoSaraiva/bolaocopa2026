@@ -1,12 +1,11 @@
 name: Atualizar Bolão
 
-# Roda a cada 30 minutos + permite execução manual
 on:
   schedule:
-    - cron: '*/30 * * * *'
-  workflow_dispatch:  # botão "Run workflow" na aba Actions
+    - cron: '7,22,37,52 16-23 * * *'
+    - cron: '7,22,37,52 0-7 * * *'
+  workflow_dispatch:
 
-# Permite que o workflow faça commit no repositório
 permissions:
   contents: write
 
