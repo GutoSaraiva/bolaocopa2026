@@ -184,10 +184,10 @@
    "grupo": "D",
    "data": "20/06 - 01h",
    "time1": "Turquia",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 0,
+   "gols2": 1,
    "time2": "Paraguai",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "D",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 31,
+ "disputados": 32,
  "total": 72
 }
