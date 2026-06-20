@@ -292,10 +292,10 @@
    "grupo": "F",
    "data": "20/06 - 14h",
    "time1": "Holanda",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 5,
+   "gols2": 1,
    "time2": "Suécia",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "F",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 32,
+ "disputados": 33,
  "total": 72
 }
