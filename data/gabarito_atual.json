@@ -238,10 +238,10 @@
    "grupo": "E",
    "data": "20/06 - 17h",
    "time1": "Alemanha",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 2,
+   "gols2": 1,
    "time2": "Costa do Marfim",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "E",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 33,
+ "disputados": 34,
  "total": 72
 }
