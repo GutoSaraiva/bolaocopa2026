@@ -301,10 +301,10 @@
    "grupo": "F",
    "data": "21/06 - 01h",
    "time1": "Tunísia",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 0,
+   "gols2": 4,
    "time2": "Japão",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "F",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 35,
+ "disputados": 36,
  "total": 72
 }
