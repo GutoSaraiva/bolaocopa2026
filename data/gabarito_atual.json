@@ -346,10 +346,10 @@
    "grupo": "G",
    "data": "21/06 - 16h",
    "time1": "Bélgica",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 0,
+   "gols2": 0,
    "time2": "Irã",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "G",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 37,
+ "disputados": 38,
  "total": 72
 }
