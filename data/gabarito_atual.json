@@ -247,10 +247,10 @@
    "grupo": "E",
    "data": "20/06 - 21h",
    "time1": "Equador",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 0,
+   "gols2": 0,
    "time2": "Curaçao",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "E",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 34,
+ "disputados": 35,
  "total": 72
 }
