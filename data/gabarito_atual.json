@@ -400,10 +400,10 @@
    "grupo": "H",
    "data": "21/06 - 13h",
    "time1": "Espanha",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 5,
+   "gols2": 0,
    "time2": "Arábia Saudita",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "H",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 36,
+ "disputados": 37,
  "total": 72
 }
