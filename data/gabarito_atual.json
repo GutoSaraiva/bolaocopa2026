@@ -508,10 +508,10 @@
    "grupo": "J",
    "data": "22/06 - 14h",
    "time1": "Argentina",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 2,
+   "gols2": 0,
    "time2": "Áustria",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "J",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 39,
+ "disputados": 40,
  "total": 72
 }
