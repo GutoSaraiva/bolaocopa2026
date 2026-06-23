@@ -35,6 +35,7 @@ NOME_PT = {
     "Bosnia-Herzegovina": "Bósnia",
     "Cape Verde": "Cabo Verde",
     "Cabo Verde": "Cabo Verde",
+    "Cape Verde Islands": "Cabo Verde",
     "Canada": "Canadá",
     "Qatar": "Catar",
     "Colombia": "Colômbia",
