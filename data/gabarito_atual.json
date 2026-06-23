@@ -454,10 +454,10 @@
    "grupo": "I",
    "data": "22/06 - 18h",
    "time1": "França",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 3,
+   "gols2": 0,
    "time2": "Iraque",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "I",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 40,
+ "disputados": 41,
  "total": 72
 }
