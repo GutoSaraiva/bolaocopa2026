@@ -562,10 +562,10 @@
    "grupo": "K",
    "data": "23/06 - 14h",
    "time1": "Portugal",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 5,
+   "gols2": 0,
    "time2": "Uzbequistão",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "K",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 44,
+ "disputados": 45,
  "total": 72
 }
