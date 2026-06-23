@@ -517,10 +517,10 @@
    "grupo": "J",
    "data": "23/06 - 00h",
    "time1": "Jordânia",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 1,
+   "gols2": 2,
    "time2": "Argélia",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "J",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 43,
+ "disputados": 44,
  "total": 72
 }
