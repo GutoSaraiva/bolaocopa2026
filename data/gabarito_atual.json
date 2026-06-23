@@ -463,10 +463,10 @@
    "grupo": "I",
    "data": "22/06 - 21h",
    "time1": "Noruega",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 3,
+   "gols2": 2,
    "time2": "Senegal",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "I",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 42,
+ "disputados": 43,
  "total": 72
 }
