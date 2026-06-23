@@ -409,10 +409,10 @@
    "grupo": "H",
    "data": "21/06 - 19h",
    "time1": "Uruguai",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 2,
+   "gols2": 2,
    "time2": "Cabo Verde",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "H",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 41,
+ "disputados": 42,
  "total": 72
 }
