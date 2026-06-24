@@ -94,19 +94,19 @@
    "grupo": "B",
    "data": "24/06 - 16h",
    "time1": "Suíça",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 2,
+   "gols2": 1,
    "time2": "Canadá",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "B",
    "data": "24/06 - 16h",
    "time1": "Bósnia",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 3,
+   "gols2": 1,
    "time2": "Catar",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "C",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 48,
+ "disputados": 50,
  "total": 72
 }
