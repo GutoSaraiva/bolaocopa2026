@@ -1,18 +1,18 @@
 {
- "data_atualizacao": "2026-06-23",
- "snapshot_anterior_data": 44,
- "jogos_disputados": 45,
+ "data_atualizacao": "2026-06-24",
+ "snapshot_anterior_data": 45,
+ "jogos_disputados": 47,
  "total_participantes": 89,
  "ranking": [
   {
    "pos": 1,
    "pos_label": "1º",
    "jogador": "Daniel Boa Nova",
-   "total": 255,
+   "total": 269,
    "delta": 0,
    "delta_label": "–",
    "breakdown": {
-    "fase_grupos_jogos": 255,
+    "fase_grupos_jogos": 269,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -22,11 +22,11 @@
    "pos": 2,
    "pos_label": "2º",
    "jogador": "Alexandre Capucho (Açaí)",
-   "total": 244,
+   "total": 256,
    "delta": 0,
    "delta_label": "–",
    "breakdown": {
-    "fase_grupos_jogos": 244,
+    "fase_grupos_jogos": 256,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -36,11 +36,11 @@
    "pos": 3,
    "pos_label": "3º",
    "jogador": "Marcelo Cabral",
-   "total": 241,
+   "total": 253,
    "delta": 0,
    "delta_label": "–",
    "breakdown": {
-    "fase_grupos_jogos": 241,
+    "fase_grupos_jogos": 253,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -50,11 +50,11 @@
    "pos": 4,
    "pos_label": "4º",
    "jogador": "Garibes",
-   "total": 240,
+   "total": 247,
    "delta": 0,
    "delta_label": "–",
    "breakdown": {
-    "fase_grupos_jogos": 240,
+    "fase_grupos_jogos": 247,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -63,12 +63,12 @@
   {
    "pos": 5,
    "pos_label": "5º",
-   "jogador": "Alessandro Berê",
-   "total": 232,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Cauê Rademaker",
+   "total": 242,
+   "delta": 3,
+   "delta_label": "▲3",
    "breakdown": {
-    "fase_grupos_jogos": 232,
+    "fase_grupos_jogos": 242,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -77,12 +77,12 @@
   {
    "pos": 6,
    "pos_label": "6º",
-   "jogador": "Fernando Lacerta",
-   "total": 232,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Alessandro Berê",
+   "total": 239,
+   "delta": -1,
+   "delta_label": "▼1",
    "breakdown": {
-    "fase_grupos_jogos": 232,
+    "fase_grupos_jogos": 239,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -91,12 +91,12 @@
   {
    "pos": 7,
    "pos_label": "7º",
-   "jogador": "Pedro Augusto",
-   "total": 232,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Fernando Lacerta",
+   "total": 239,
+   "delta": -1,
+   "delta_label": "▼1",
    "breakdown": {
-    "fase_grupos_jogos": 232,
+    "fase_grupos_jogos": 239,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -105,12 +105,12 @@
   {
    "pos": 8,
    "pos_label": "8º",
-   "jogador": "Cauê Rademaker",
-   "total": 230,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Rubem de Paula",
+   "total": 237,
+   "delta": 1,
+   "delta_label": "▲1",
    "breakdown": {
-    "fase_grupos_jogos": 230,
+    "fase_grupos_jogos": 237,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -119,7 +119,119 @@
   {
    "pos": 9,
    "pos_label": "9º",
-   "jogador": "Rubem de Paula",
+   "jogador": "Carolina Capucho",
+   "total": 236,
+   "delta": 1,
+   "delta_label": "▲1",
+   "breakdown": {
+    "fase_grupos_jogos": 236,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 10,
+   "pos_label": "10º",
+   "jogador": "Fábio Rocha",
+   "total": 235,
+   "delta": 1,
+   "delta_label": "▲1",
+   "breakdown": {
+    "fase_grupos_jogos": 235,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 11,
+   "pos_label": "11º",
+   "jogador": "Felipe Rocha",
+   "total": 235,
+   "delta": 1,
+   "delta_label": "▲1",
+   "breakdown": {
+    "fase_grupos_jogos": 235,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 12,
+   "pos_label": "12º",
+   "jogador": "Gabriel Barretti",
+   "total": 235,
+   "delta": 1,
+   "delta_label": "▲1",
+   "breakdown": {
+    "fase_grupos_jogos": 235,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 13,
+   "pos_label": "13º",
+   "jogador": "Marcelo Frade",
+   "total": 235,
+   "delta": 1,
+   "delta_label": "▲1",
+   "breakdown": {
+    "fase_grupos_jogos": 235,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 14,
+   "pos_label": "14º",
+   "jogador": "Thiago Ribeiro",
+   "total": 234,
+   "delta": 1,
+   "delta_label": "▲1",
+   "breakdown": {
+    "fase_grupos_jogos": 234,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 15,
+   "pos_label": "15º",
+   "jogador": "Pedro Augusto",
+   "total": 232,
+   "delta": -8,
+   "delta_label": "▼8",
+   "breakdown": {
+    "fase_grupos_jogos": 232,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 16,
+   "pos_label": "16º",
+   "jogador": "Fernanda Mora",
+   "total": 231,
+   "delta": 0,
+   "delta_label": "–",
+   "breakdown": {
+    "fase_grupos_jogos": 231,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 17,
+   "pos_label": "17º",
+   "jogador": "Bernardo Rocha",
    "total": 230,
    "delta": 0,
    "delta_label": "–",
@@ -131,9 +243,23 @@
    }
   },
   {
-   "pos": 10,
-   "pos_label": "10º",
-   "jogador": "Carolina Capucho",
+   "pos": 18,
+   "pos_label": "18º",
+   "jogador": "Marcia Azenha",
+   "total": 230,
+   "delta": 0,
+   "delta_label": "–",
+   "breakdown": {
+    "fase_grupos_jogos": 230,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 19,
+   "pos_label": "19º",
+   "jogador": "Felipe de Paula",
    "total": 229,
    "delta": 0,
    "delta_label": "–",
@@ -145,140 +271,14 @@
    }
   },
   {
-   "pos": 11,
-   "pos_label": "11º",
-   "jogador": "Fábio Rocha",
-   "total": 228,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 228,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 12,
-   "pos_label": "12º",
-   "jogador": "Felipe Rocha",
-   "total": 228,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 228,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 13,
-   "pos_label": "13º",
-   "jogador": "Gabriel Barretti",
-   "total": 228,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 228,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 14,
-   "pos_label": "14º",
-   "jogador": "Marcelo Frade",
-   "total": 228,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 228,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 15,
-   "pos_label": "15º",
-   "jogador": "Thiago Ribeiro",
-   "total": 227,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 227,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 16,
-   "pos_label": "16º",
-   "jogador": "Fernanda Mora",
-   "total": 224,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 224,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 17,
-   "pos_label": "17º",
-   "jogador": "Bernardo Rocha",
-   "total": 223,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 223,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 18,
-   "pos_label": "18º",
-   "jogador": "Marcia Azenha",
-   "total": 223,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 223,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 19,
-   "pos_label": "19º",
-   "jogador": "Felipe de Paula",
-   "total": 222,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 222,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
    "pos": 20,
    "pos_label": "20º",
-   "jogador": "Fernando Rocha",
-   "total": 221,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Denis",
+   "total": 228,
+   "delta": 5,
+   "delta_label": "▲5",
    "breakdown": {
-    "fase_grupos_jogos": 221,
+    "fase_grupos_jogos": 228,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -287,12 +287,12 @@
   {
    "pos": 21,
    "pos_label": "21º",
-   "jogador": "Christian",
-   "total": 219,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Oscar",
+   "total": 228,
+   "delta": 6,
+   "delta_label": "▲6",
    "breakdown": {
-    "fase_grupos_jogos": 219,
+    "fase_grupos_jogos": 228,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -301,12 +301,12 @@
   {
    "pos": 22,
    "pos_label": "22º",
-   "jogador": "Bernardo Ganso",
-   "total": 218,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Christian",
+   "total": 226,
+   "delta": -1,
+   "delta_label": "▼1",
    "breakdown": {
-    "fase_grupos_jogos": 218,
+    "fase_grupos_jogos": 226,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -315,12 +315,12 @@
   {
    "pos": 23,
    "pos_label": "23º",
-   "jogador": "Alexandre Moretti",
-   "total": 217,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Bernardo Ganso",
+   "total": 225,
+   "delta": -1,
+   "delta_label": "▼1",
    "breakdown": {
-    "fase_grupos_jogos": 217,
+    "fase_grupos_jogos": 225,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -329,12 +329,12 @@
   {
    "pos": 24,
    "pos_label": "24º",
-   "jogador": "Vladimir",
-   "total": 217,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Alexandre Moretti",
+   "total": 224,
+   "delta": -1,
+   "delta_label": "▼1",
    "breakdown": {
-    "fase_grupos_jogos": 217,
+    "fase_grupos_jogos": 224,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -343,12 +343,12 @@
   {
    "pos": 25,
    "pos_label": "25º",
-   "jogador": "Denis",
-   "total": 216,
-   "delta": 13,
-   "delta_label": "▲13",
+   "jogador": "Guilherme Assis",
+   "total": 224,
+   "delta": 17,
+   "delta_label": "▲17",
    "breakdown": {
-    "fase_grupos_jogos": 216,
+    "fase_grupos_jogos": 224,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -357,12 +357,12 @@
   {
    "pos": 26,
    "pos_label": "26º",
-   "jogador": "Guto",
-   "total": 216,
-   "delta": -1,
-   "delta_label": "▼1",
+   "jogador": "Vladimir",
+   "total": 224,
+   "delta": -2,
+   "delta_label": "▼2",
    "breakdown": {
-    "fase_grupos_jogos": 216,
+    "fase_grupos_jogos": 224,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -371,12 +371,12 @@
   {
    "pos": 27,
    "pos_label": "27º",
-   "jogador": "Oscar",
-   "total": 216,
+   "jogador": "Guto",
+   "total": 223,
    "delta": -1,
    "delta_label": "▼1",
    "breakdown": {
-    "fase_grupos_jogos": 216,
+    "fase_grupos_jogos": 223,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -385,12 +385,12 @@
   {
    "pos": 28,
    "pos_label": "28º",
-   "jogador": "Camila Anticaglia",
-   "total": 215,
-   "delta": -1,
-   "delta_label": "▼1",
+   "jogador": "Luma",
+   "total": 223,
+   "delta": 19,
+   "delta_label": "▲19",
    "breakdown": {
-    "fase_grupos_jogos": 215,
+    "fase_grupos_jogos": 223,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -399,12 +399,12 @@
   {
    "pos": 29,
    "pos_label": "29º",
-   "jogador": "Carbonell",
-   "total": 215,
+   "jogador": "Camila Anticaglia",
+   "total": 222,
    "delta": -1,
    "delta_label": "▼1",
    "breakdown": {
-    "fase_grupos_jogos": 215,
+    "fase_grupos_jogos": 222,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -413,12 +413,12 @@
   {
    "pos": 30,
    "pos_label": "30º",
-   "jogador": "Cristiano Mendonça",
-   "total": 215,
+   "jogador": "Carbonell",
+   "total": 222,
    "delta": -1,
    "delta_label": "▼1",
    "breakdown": {
-    "fase_grupos_jogos": 215,
+    "fase_grupos_jogos": 222,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -427,12 +427,12 @@
   {
    "pos": 31,
    "pos_label": "31º",
-   "jogador": "Heloisa Mora",
-   "total": 215,
+   "jogador": "Cristiano Mendonça",
+   "total": 222,
    "delta": -1,
    "delta_label": "▼1",
    "breakdown": {
-    "fase_grupos_jogos": 215,
+    "fase_grupos_jogos": 222,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -441,12 +441,12 @@
   {
    "pos": 32,
    "pos_label": "32º",
-   "jogador": "Rui de Oliveira Filho",
-   "total": 215,
-   "delta": 11,
-   "delta_label": "▲11",
+   "jogador": "Heloisa Mora",
+   "total": 222,
+   "delta": -1,
+   "delta_label": "▼1",
    "breakdown": {
-    "fase_grupos_jogos": 215,
+    "fase_grupos_jogos": 222,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -455,7 +455,245 @@
   {
    "pos": 33,
    "pos_label": "33º",
+   "jogador": "Rui de Oliveira Filho",
+   "total": 222,
+   "delta": -1,
+   "delta_label": "▼1",
+   "breakdown": {
+    "fase_grupos_jogos": 222,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 34,
+   "pos_label": "34º",
    "jogador": "Tiago Varalli",
+   "total": 222,
+   "delta": -1,
+   "delta_label": "▼1",
+   "breakdown": {
+    "fase_grupos_jogos": 222,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 35,
+   "pos_label": "35º",
+   "jogador": "Fernando Rocha",
+   "total": 221,
+   "delta": -15,
+   "delta_label": "▼15",
+   "breakdown": {
+    "fase_grupos_jogos": 221,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 36,
+   "pos_label": "36º",
+   "jogador": "Sérgio Cruz",
+   "total": 221,
+   "delta": -2,
+   "delta_label": "▼2",
+   "breakdown": {
+    "fase_grupos_jogos": 221,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 37,
+   "pos_label": "37º",
+   "jogador": "Daso M Coimbra",
+   "total": 220,
+   "delta": -2,
+   "delta_label": "▼2",
+   "breakdown": {
+    "fase_grupos_jogos": 220,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 38,
+   "pos_label": "38º",
+   "jogador": "Gui Caram",
+   "total": 220,
+   "delta": -2,
+   "delta_label": "▼2",
+   "breakdown": {
+    "fase_grupos_jogos": 220,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 39,
+   "pos_label": "39º",
+   "jogador": "Moisés",
+   "total": 220,
+   "delta": -2,
+   "delta_label": "▼2",
+   "breakdown": {
+    "fase_grupos_jogos": 220,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 40,
+   "pos_label": "40º",
+   "jogador": "Thiago Cinelli",
+   "total": 220,
+   "delta": -2,
+   "delta_label": "▼2",
+   "breakdown": {
+    "fase_grupos_jogos": 220,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 41,
+   "pos_label": "41º",
+   "jogador": "Caca e Bibi",
+   "total": 219,
+   "delta": -2,
+   "delta_label": "▼2",
+   "breakdown": {
+    "fase_grupos_jogos": 219,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 42,
+   "pos_label": "42º",
+   "jogador": "Didi Adriano",
+   "total": 218,
+   "delta": -2,
+   "delta_label": "▼2",
+   "breakdown": {
+    "fase_grupos_jogos": 218,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 43,
+   "pos_label": "43º",
+   "jogador": "Rafael Serbaro",
+   "total": 218,
+   "delta": 10,
+   "delta_label": "▲10",
+   "breakdown": {
+    "fase_grupos_jogos": 218,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 44,
+   "pos_label": "44º",
+   "jogador": "Renato Izar",
+   "total": 218,
+   "delta": -3,
+   "delta_label": "▼3",
+   "breakdown": {
+    "fase_grupos_jogos": 218,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 45,
+   "pos_label": "45º",
+   "jogador": "Leonardo Siqueira",
+   "total": 217,
+   "delta": -2,
+   "delta_label": "▼2",
+   "breakdown": {
+    "fase_grupos_jogos": 217,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 46,
+   "pos_label": "46º",
+   "jogador": "Sylvia Mora",
+   "total": 217,
+   "delta": -2,
+   "delta_label": "▼2",
+   "breakdown": {
+    "fase_grupos_jogos": 217,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 47,
+   "pos_label": "47º",
+   "jogador": "Tiago Gavião",
+   "total": 217,
+   "delta": -2,
+   "delta_label": "▼2",
+   "breakdown": {
+    "fase_grupos_jogos": 217,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 48,
+   "pos_label": "48º",
+   "jogador": "Beatriz Latorre",
+   "total": 216,
+   "delta": 9,
+   "delta_label": "▲9",
+   "breakdown": {
+    "fase_grupos_jogos": 216,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 49,
+   "pos_label": "49º",
+   "jogador": "Duda Coimbra",
+   "total": 216,
+   "delta": -3,
+   "delta_label": "▼3",
+   "breakdown": {
+    "fase_grupos_jogos": 216,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 50,
+   "pos_label": "50º",
+   "jogador": "Rogério da Veiga",
    "total": 215,
    "delta": -2,
    "delta_label": "▼2",
@@ -467,9 +705,23 @@
    }
   },
   {
-   "pos": 34,
-   "pos_label": "34º",
-   "jogador": "Sérgio Cruz",
+   "pos": 51,
+   "pos_label": "51º",
+   "jogador": "Tanabe",
+   "total": 215,
+   "delta": -2,
+   "delta_label": "▼2",
+   "breakdown": {
+    "fase_grupos_jogos": 215,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 52,
+   "pos_label": "52º",
+   "jogador": "Ricardo Rocha",
    "total": 214,
    "delta": -2,
    "delta_label": "▼2",
@@ -481,266 +733,14 @@
    }
   },
   {
-   "pos": 35,
-   "pos_label": "35º",
-   "jogador": "Daso M Coimbra",
-   "total": 213,
-   "delta": -2,
-   "delta_label": "▼2",
-   "breakdown": {
-    "fase_grupos_jogos": 213,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 36,
-   "pos_label": "36º",
-   "jogador": "Gui Caram",
-   "total": 213,
-   "delta": -2,
-   "delta_label": "▼2",
-   "breakdown": {
-    "fase_grupos_jogos": 213,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 37,
-   "pos_label": "37º",
-   "jogador": "Moisés",
-   "total": 213,
-   "delta": -2,
-   "delta_label": "▼2",
-   "breakdown": {
-    "fase_grupos_jogos": 213,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 38,
-   "pos_label": "38º",
-   "jogador": "Thiago Cinelli",
-   "total": 213,
-   "delta": -2,
-   "delta_label": "▼2",
-   "breakdown": {
-    "fase_grupos_jogos": 213,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 39,
-   "pos_label": "39º",
-   "jogador": "Caca e Bibi",
-   "total": 212,
-   "delta": -2,
-   "delta_label": "▼2",
-   "breakdown": {
-    "fase_grupos_jogos": 212,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 40,
-   "pos_label": "40º",
-   "jogador": "Didi Adriano",
-   "total": 211,
-   "delta": -1,
-   "delta_label": "▼1",
-   "breakdown": {
-    "fase_grupos_jogos": 211,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 41,
-   "pos_label": "41º",
-   "jogador": "Renato Izar",
-   "total": 211,
-   "delta": -1,
-   "delta_label": "▼1",
-   "breakdown": {
-    "fase_grupos_jogos": 211,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 42,
-   "pos_label": "42º",
-   "jogador": "Guilherme Assis",
-   "total": 210,
-   "delta": -1,
-   "delta_label": "▼1",
-   "breakdown": {
-    "fase_grupos_jogos": 210,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 43,
-   "pos_label": "43º",
-   "jogador": "Leonardo Siqueira",
-   "total": 210,
-   "delta": -1,
-   "delta_label": "▼1",
-   "breakdown": {
-    "fase_grupos_jogos": 210,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 44,
-   "pos_label": "44º",
-   "jogador": "Sylvia Mora",
-   "total": 210,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 210,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 45,
-   "pos_label": "45º",
-   "jogador": "Tiago Gavião",
-   "total": 210,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 210,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 46,
-   "pos_label": "46º",
-   "jogador": "Duda Coimbra",
-   "total": 209,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 209,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 47,
-   "pos_label": "47º",
-   "jogador": "Luma",
-   "total": 209,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 209,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 48,
-   "pos_label": "48º",
-   "jogador": "Rogério da Veiga",
-   "total": 208,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 208,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 49,
-   "pos_label": "49º",
-   "jogador": "Tanabe",
-   "total": 208,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 208,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 50,
-   "pos_label": "50º",
-   "jogador": "Ricardo Rocha",
-   "total": 207,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 207,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 51,
-   "pos_label": "51º",
-   "jogador": "Heitor Aroeira",
-   "total": 206,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 206,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 52,
-   "pos_label": "52º",
-   "jogador": "Henrique Nunes",
-   "total": 206,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 206,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
    "pos": 53,
    "pos_label": "53º",
-   "jogador": "Rafael Serbaro",
-   "total": 206,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Heitor Aroeira",
+   "total": 213,
+   "delta": -2,
+   "delta_label": "▼2",
    "breakdown": {
-    "fase_grupos_jogos": 206,
+    "fase_grupos_jogos": 213,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -749,7 +749,119 @@
   {
    "pos": 54,
    "pos_label": "54º",
+   "jogador": "Henrique Nunes",
+   "total": 213,
+   "delta": -2,
+   "delta_label": "▼2",
+   "breakdown": {
+    "fase_grupos_jogos": 213,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 55,
+   "pos_label": "55º",
+   "jogador": "Octavio",
+   "total": 213,
+   "delta": 5,
+   "delta_label": "▲5",
+   "breakdown": {
+    "fase_grupos_jogos": 213,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 56,
+   "pos_label": "56º",
    "jogador": "Leo Soares",
+   "total": 211,
+   "delta": -2,
+   "delta_label": "▼2",
+   "breakdown": {
+    "fase_grupos_jogos": 211,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 57,
+   "pos_label": "57º",
+   "jogador": "César de Oliveira Frade",
+   "total": 210,
+   "delta": -2,
+   "delta_label": "▼2",
+   "breakdown": {
+    "fase_grupos_jogos": 210,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 58,
+   "pos_label": "58º",
+   "jogador": "Herbert Quirino",
+   "total": 210,
+   "delta": -2,
+   "delta_label": "▼2",
+   "breakdown": {
+    "fase_grupos_jogos": 210,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 59,
+   "pos_label": "59º",
+   "jogador": "Bruno Varalli",
+   "total": 208,
+   "delta": -1,
+   "delta_label": "▼1",
+   "breakdown": {
+    "fase_grupos_jogos": 208,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 60,
+   "pos_label": "60º",
+   "jogador": "Mirena",
+   "total": 207,
+   "delta": -1,
+   "delta_label": "▼1",
+   "breakdown": {
+    "fase_grupos_jogos": 207,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 61,
+   "pos_label": "61º",
+   "jogador": "Everton Trindade",
+   "total": 205,
+   "delta": 0,
+   "delta_label": "–",
+   "breakdown": {
+    "fase_grupos_jogos": 205,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 62,
+   "pos_label": "62º",
+   "jogador": "Tato (Renato Flit)",
    "total": 204,
    "delta": 0,
    "delta_label": "–",
@@ -761,9 +873,9 @@
    }
   },
   {
-   "pos": 55,
-   "pos_label": "55º",
-   "jogador": "César de Oliveira Frade",
+   "pos": 63,
+   "pos_label": "63º",
+   "jogador": "Estevão Scripilliti",
    "total": 203,
    "delta": 0,
    "delta_label": "–",
@@ -775,9 +887,9 @@
    }
   },
   {
-   "pos": 56,
-   "pos_label": "56º",
-   "jogador": "Herbert Quirino",
+   "pos": 64,
+   "pos_label": "64º",
+   "jogador": "Janine Mello",
    "total": 203,
    "delta": 0,
    "delta_label": "–",
@@ -789,9 +901,9 @@
    }
   },
   {
-   "pos": 57,
-   "pos_label": "57º",
-   "jogador": "Beatriz Latorre",
+   "pos": 65,
+   "pos_label": "65º",
+   "jogador": "Diângeli Soares Camargo",
    "total": 202,
    "delta": 0,
    "delta_label": "–",
@@ -803,126 +915,14 @@
    }
   },
   {
-   "pos": 58,
-   "pos_label": "58º",
-   "jogador": "Bruno Varalli",
-   "total": 201,
-   "delta": 1,
-   "delta_label": "▲1",
-   "breakdown": {
-    "fase_grupos_jogos": 201,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 59,
-   "pos_label": "59º",
-   "jogador": "Mirena",
-   "total": 200,
-   "delta": 1,
-   "delta_label": "▲1",
-   "breakdown": {
-    "fase_grupos_jogos": 200,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 60,
-   "pos_label": "60º",
-   "jogador": "Octavio",
-   "total": 199,
-   "delta": 1,
-   "delta_label": "▲1",
-   "breakdown": {
-    "fase_grupos_jogos": 199,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 61,
-   "pos_label": "61º",
-   "jogador": "Everton Trindade",
-   "total": 198,
-   "delta": 1,
-   "delta_label": "▲1",
-   "breakdown": {
-    "fase_grupos_jogos": 198,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 62,
-   "pos_label": "62º",
-   "jogador": "Tato (Renato Flit)",
-   "total": 197,
-   "delta": 1,
-   "delta_label": "▲1",
-   "breakdown": {
-    "fase_grupos_jogos": 197,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 63,
-   "pos_label": "63º",
-   "jogador": "Estevão Scripilliti",
-   "total": 196,
-   "delta": 1,
-   "delta_label": "▲1",
-   "breakdown": {
-    "fase_grupos_jogos": 196,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 64,
-   "pos_label": "64º",
-   "jogador": "Janine Mello",
-   "total": 196,
-   "delta": 1,
-   "delta_label": "▲1",
-   "breakdown": {
-    "fase_grupos_jogos": 196,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 65,
-   "pos_label": "65º",
-   "jogador": "Diângeli Soares Camargo",
-   "total": 195,
-   "delta": 1,
-   "delta_label": "▲1",
-   "breakdown": {
-    "fase_grupos_jogos": 195,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
    "pos": 66,
    "pos_label": "66º",
    "jogador": "Paulo Victor",
-   "total": 195,
-   "delta": -8,
-   "delta_label": "▼8",
+   "total": 202,
+   "delta": 0,
+   "delta_label": "–",
    "breakdown": {
-    "fase_grupos_jogos": 195,
+    "fase_grupos_jogos": 202,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -932,6 +932,76 @@
    "pos": 67,
    "pos_label": "67º",
    "jogador": "Henrique Frizzo",
+   "total": 201,
+   "delta": 0,
+   "delta_label": "–",
+   "breakdown": {
+    "fase_grupos_jogos": 201,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 68,
+   "pos_label": "68º",
+   "jogador": "Thiago Pedroso",
+   "total": 200,
+   "delta": 0,
+   "delta_label": "–",
+   "breakdown": {
+    "fase_grupos_jogos": 200,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 69,
+   "pos_label": "69º",
+   "jogador": "Cora",
+   "total": 199,
+   "delta": 0,
+   "delta_label": "–",
+   "breakdown": {
+    "fase_grupos_jogos": 199,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 70,
+   "pos_label": "70º",
+   "jogador": "Almir Teubl Sanches",
+   "total": 196,
+   "delta": 0,
+   "delta_label": "–",
+   "breakdown": {
+    "fase_grupos_jogos": 196,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 71,
+   "pos_label": "71º",
+   "jogador": "Felipe Ramalho",
+   "total": 195,
+   "delta": 0,
+   "delta_label": "–",
+   "breakdown": {
+    "fase_grupos_jogos": 195,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 72,
+   "pos_label": "72º",
+   "jogador": "Igor Zibordi",
    "total": 194,
    "delta": 0,
    "delta_label": "–",
@@ -943,84 +1013,14 @@
    }
   },
   {
-   "pos": 68,
-   "pos_label": "68º",
-   "jogador": "Thiago Pedroso",
-   "total": 193,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 193,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 69,
-   "pos_label": "69º",
-   "jogador": "Cora",
-   "total": 192,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 192,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 70,
-   "pos_label": "70º",
-   "jogador": "Almir Teubl Sanches",
-   "total": 189,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 189,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 71,
-   "pos_label": "71º",
-   "jogador": "Felipe Ramalho",
-   "total": 188,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 188,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 72,
-   "pos_label": "72º",
-   "jogador": "Igor Zibordi",
-   "total": 187,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 187,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
    "pos": 73,
    "pos_label": "73º",
    "jogador": "Jaercio Ferreira da Silva",
-   "total": 187,
+   "total": 194,
    "delta": 0,
    "delta_label": "–",
    "breakdown": {
-    "fase_grupos_jogos": 187,
+    "fase_grupos_jogos": 194,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -1029,12 +1029,12 @@
   {
    "pos": 74,
    "pos_label": "74º",
-   "jogador": "Marcelo Conduru",
-   "total": 185,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Gustavo Coimbra",
+   "total": 193,
+   "delta": 5,
+   "delta_label": "▲5",
    "breakdown": {
-    "fase_grupos_jogos": 185,
+    "fase_grupos_jogos": 193,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -1043,12 +1043,12 @@
   {
    "pos": 75,
    "pos_label": "75º",
-   "jogador": "Roberto Braga",
-   "total": 185,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Marcelo Conduru",
+   "total": 192,
+   "delta": -1,
+   "delta_label": "▼1",
    "breakdown": {
-    "fase_grupos_jogos": 185,
+    "fase_grupos_jogos": 192,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -1057,12 +1057,12 @@
   {
    "pos": 76,
    "pos_label": "76º",
-   "jogador": "Torrão",
-   "total": 184,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Roberto Braga",
+   "total": 192,
+   "delta": -1,
+   "delta_label": "▼1",
    "breakdown": {
-    "fase_grupos_jogos": 184,
+    "fase_grupos_jogos": 192,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -1071,12 +1071,12 @@
   {
    "pos": 77,
    "pos_label": "77º",
-   "jogador": "Guilherme Ramalho",
-   "total": 183,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Torrão",
+   "total": 191,
+   "delta": -1,
+   "delta_label": "▼1",
    "breakdown": {
-    "fase_grupos_jogos": 183,
+    "fase_grupos_jogos": 191,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -1085,12 +1085,12 @@
   {
    "pos": 78,
    "pos_label": "78º",
-   "jogador": "Glemar Coelho",
-   "total": 181,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Guilherme Ramalho",
+   "total": 190,
+   "delta": -1,
+   "delta_label": "▼1",
    "breakdown": {
-    "fase_grupos_jogos": 181,
+    "fase_grupos_jogos": 190,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -1099,12 +1099,12 @@
   {
    "pos": 79,
    "pos_label": "79º",
-   "jogador": "Gustavo Coimbra",
-   "total": 181,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Pedro Chueiri",
+   "total": 187,
+   "delta": 1,
+   "delta_label": "▲1",
    "breakdown": {
-    "fase_grupos_jogos": 181,
+    "fase_grupos_jogos": 187,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -1113,12 +1113,12 @@
   {
    "pos": 80,
    "pos_label": "80º",
-   "jogador": "Pedro Chueiri",
-   "total": 180,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "PROBER",
+   "total": 185,
+   "delta": 2,
+   "delta_label": "▲2",
    "breakdown": {
-    "fase_grupos_jogos": 180,
+    "fase_grupos_jogos": 185,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -1127,12 +1127,12 @@
   {
    "pos": 81,
    "pos_label": "81º",
-   "jogador": "Lucas Frizzo",
-   "total": 179,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Sandro Eli",
+   "total": 185,
+   "delta": 2,
+   "delta_label": "▲2",
    "breakdown": {
-    "fase_grupos_jogos": 179,
+    "fase_grupos_jogos": 185,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -1141,12 +1141,12 @@
   {
    "pos": 82,
    "pos_label": "82º",
-   "jogador": "PROBER",
-   "total": 178,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Silvio Godoy",
+   "total": 185,
+   "delta": 2,
+   "delta_label": "▲2",
    "breakdown": {
-    "fase_grupos_jogos": 178,
+    "fase_grupos_jogos": 185,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -1155,12 +1155,12 @@
   {
    "pos": 83,
    "pos_label": "83º",
-   "jogador": "Sandro Eli",
-   "total": 178,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Glemar Coelho",
+   "total": 181,
+   "delta": -5,
+   "delta_label": "▼5",
    "breakdown": {
-    "fase_grupos_jogos": 178,
+    "fase_grupos_jogos": 181,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -1169,12 +1169,12 @@
   {
    "pos": 84,
    "pos_label": "84º",
-   "jogador": "Silvio Godoy",
-   "total": 178,
-   "delta": 0,
-   "delta_label": "–",
+   "jogador": "Jorge Ramalho",
+   "total": 179,
+   "delta": 1,
+   "delta_label": "▲1",
    "breakdown": {
-    "fase_grupos_jogos": 178,
+    "fase_grupos_jogos": 179,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
@@ -1183,7 +1183,35 @@
   {
    "pos": 85,
    "pos_label": "85º",
-   "jogador": "Jorge Ramalho",
+   "jogador": "Lucas Frizzo",
+   "total": 179,
+   "delta": -4,
+   "delta_label": "▼4",
+   "breakdown": {
+    "fase_grupos_jogos": 179,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 86,
+   "pos_label": "86º",
+   "jogador": "Bernardo Paglia",
+   "total": 175,
+   "delta": 0,
+   "delta_label": "–",
+   "breakdown": {
+    "fase_grupos_jogos": 175,
+    "fase_grupos_classificacao": 0,
+    "mata_mata": 0,
+    "bonus": 0
+   }
+  },
+  {
+   "pos": 87,
+   "pos_label": "87º",
+   "jogador": "Helvio Mendes",
    "total": 172,
    "delta": 0,
    "delta_label": "–",
@@ -1195,9 +1223,9 @@
    }
   },
   {
-   "pos": 86,
-   "pos_label": "86º",
-   "jogador": "Bernardo Paglia",
+   "pos": 88,
+   "pos_label": "88º",
+   "jogador": "Marcel Belfiore",
    "total": 168,
    "delta": 0,
    "delta_label": "–",
@@ -1209,42 +1237,14 @@
    }
   },
   {
-   "pos": 87,
-   "pos_label": "87º",
-   "jogador": "Helvio Mendes",
-   "total": 165,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 165,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
-   "pos": 88,
-   "pos_label": "88º",
-   "jogador": "Marcel Belfiore",
-   "total": 161,
-   "delta": 0,
-   "delta_label": "–",
-   "breakdown": {
-    "fase_grupos_jogos": 161,
-    "fase_grupos_classificacao": 0,
-    "mata_mata": 0,
-    "bonus": 0
-   }
-  },
-  {
    "pos": 89,
    "pos_label": "89º",
    "jogador": "Vanessa Soares Camargo",
-   "total": 160,
+   "total": 167,
    "delta": 0,
    "delta_label": "–",
    "breakdown": {
-    "fase_grupos_jogos": 160,
+    "fase_grupos_jogos": 167,
     "fase_grupos_classificacao": 0,
     "mata_mata": 0,
     "bonus": 0
