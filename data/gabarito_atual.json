@@ -571,10 +571,10 @@
    "grupo": "K",
    "data": "23/06 - 23h",
    "time1": "Colômbia",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 1,
+   "gols2": 0,
    "time2": "RD Congo",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "K",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 47,
+ "disputados": 48,
  "total": 72
 }
