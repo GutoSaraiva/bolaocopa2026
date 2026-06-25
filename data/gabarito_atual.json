@@ -148,19 +148,19 @@
    "grupo": "C",
    "data": "24/06 - 19h",
    "time1": "Escócia",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 0,
+   "gols2": 3,
    "time2": "Brasil",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "C",
    "data": "24/06 - 19h",
    "time1": "Marrocos",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 4,
+   "gols2": 2,
    "time2": "Haiti",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "D",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 50,
+ "disputados": 52,
  "total": 72
 }
