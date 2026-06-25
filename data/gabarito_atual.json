@@ -40,19 +40,19 @@
    "grupo": "A",
    "data": "24/06 - 22h",
    "time1": "Tchéquia",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 0,
+   "gols2": 3,
    "time2": "México",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "A",
    "data": "24/06 - 22h",
    "time1": "África do Sul",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 1,
+   "gols2": 0,
    "time2": "Coreia do Sul",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "B",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 52,
+ "disputados": 54,
  "total": 72
 }
