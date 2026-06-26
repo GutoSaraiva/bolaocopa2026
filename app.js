@@ -143,7 +143,6 @@ function renderTable() {
     const bd = r.breakdown || {
       fase_grupos_jogos: r.fase_grupos_jogos, fase_grupos_classificacao: r.fase_grupos_classificacao,
       mata_mata: r.mata_mata, bonus: r.bonus };
-    const grupos = bd.fase_grupos_jogos + bd.fase_grupos_classificacao;
     // Coluna delta: no modo sim, mostra mudança vs oficial; senão delta de rodada
     let deltaTd;
     if (SIM_ACTIVE) {
@@ -158,7 +157,8 @@ function renderTable() {
         <td class="col-pos">${r.pos_label}</td>
         <td class="col-name">${r.jogador}</td>
         <td class="col-num col-total">${r.total}</td>
-        <td class="col-num col-breakdown col-hide-mobile">${emptyOr(grupos)}</td>
+        <td class="col-num col-breakdown col-hide-mobile">${emptyOr(bd.fase_grupos_jogos)}</td>
+        <td class="col-num col-breakdown col-hide-mobile">${emptyOr(bd.fase_grupos_classificacao)}</td>
         <td class="col-num col-breakdown col-hide-mobile">${emptyOr(bd.mata_mata)}</td>
         <td class="col-num col-breakdown col-hide-mobile">${emptyOr(bd.bonus)}</td>
         <td class="col-num col-gap">${gapCell}</td>
@@ -668,7 +668,7 @@ async function init() {
   } catch (err) {
     console.error(err);
     document.getElementById('ranking-body').innerHTML = `
-      <tr><td colspan="8" style="padding:40px;text-align:center;color:var(--red);">
+      <tr><td colspan="9" style="padding:40px;text-align:center;color:var(--red);">
       Não consegui carregar os dados.<br>
       <small style="color:var(--text-muted);font-family:var(--font-mono);">${err.message}</small></td></tr>`;
   }
