@@ -256,19 +256,19 @@
    "grupo": "E",
    "data": "25/06 - 17h",
    "time1": "Equador",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 2,
+   "gols2": 1,
    "time2": "Alemanha",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "E",
    "data": "25/06 - 17h",
    "time1": "Curaçao",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 0,
+   "gols2": 2,
    "time2": "Costa do Marfim",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "F",
@@ -310,19 +310,19 @@
    "grupo": "F",
    "data": "25/06 - 20h",
    "time1": "Japão",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 1,
+   "gols2": 1,
    "time2": "Suécia",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "F",
    "data": "25/06 - 20h",
    "time1": "Tunísia",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 1,
+   "gols2": 3,
    "time2": "Holanda",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "G",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 54,
+ "disputados": 58,
  "total": 72
 }
