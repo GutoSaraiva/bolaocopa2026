@@ -472,19 +472,19 @@
    "grupo": "I",
    "data": "26/06 - 16h",
    "time1": "Noruega",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 1,
+   "gols2": 4,
    "time2": "França",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "I",
    "data": "26/06 - 16h",
    "time1": "Senegal",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 5,
+   "gols2": 0,
    "time2": "Iraque",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "J",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 60,
+ "disputados": 62,
  "total": 72
 }
