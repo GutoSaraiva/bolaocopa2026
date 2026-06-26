@@ -202,19 +202,19 @@
    "grupo": "D",
    "data": "25/06 - 23h",
    "time1": "Turquia",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 3,
+   "gols2": 2,
    "time2": "EUA",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "D",
    "data": "25/06 - 23h",
    "time1": "Paraguai",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 0,
+   "gols2": 0,
    "time2": "Austrália",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "E",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 58,
+ "disputados": 60,
  "total": 72
 }
