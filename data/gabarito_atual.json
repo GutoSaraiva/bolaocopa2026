@@ -634,21 +634,21 @@
    "grupo": "L",
    "data": "27/06 - 18h",
    "time1": "Panamá",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 0,
+   "gols2": 2,
    "time2": "Inglaterra",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "L",
    "data": "27/06 - 18h",
    "time1": "Croácia",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 2,
+   "gols2": 1,
    "time2": "Gana",
-   "disputado": false
+   "disputado": true
   }
  ],
- "disputados": 66,
+ "disputados": 68,
  "total": 72
 }
