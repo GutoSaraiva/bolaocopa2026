@@ -364,19 +364,19 @@
    "grupo": "G",
    "data": "27/06 - 00h",
    "time1": "Egito",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 1,
+   "gols2": 1,
    "time2": "Irã",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "G",
    "data": "27/06 - 00h",
    "time1": "Nova Zelândia",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 1,
+   "gols2": 5,
    "time2": "Bélgica",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "H",
@@ -418,19 +418,19 @@
    "grupo": "H",
    "data": "26/06 - 21h",
    "time1": "Cabo Verde",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 0,
+   "gols2": 0,
    "time2": "Arábia Saudita",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "H",
    "data": "26/06 - 21h",
    "time1": "Uruguai",
-   "gols1": null,
-   "gols2": null,
+   "gols1": 0,
+   "gols2": 1,
    "time2": "Espanha",
-   "disputado": false
+   "disputado": true
   },
   {
    "grupo": "I",
@@ -649,6 +649,6 @@
    "disputado": false
   }
  ],
- "disputados": 62,
+ "disputados": 66,
  "total": 72
 }
